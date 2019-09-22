@@ -13,3 +13,8 @@ h2 {
     text-align:center;
     background-color:#A52A2A;
 }
+#lastmod{
+    font-weight: 400;
+    color:lightskyblue;
+    font-size: 0.8rem;
+}
