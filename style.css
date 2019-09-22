@@ -1,9 +1,18 @@
-header{border-radius: 10px;}
+
+header{line-height: 55px;
+    border-radius: 10px;
+    background-color:#A52A2A;
+    
+}
+header img{float: right;
+    width: 180px;
+height: auto;}
+
 body{font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 
 }
-h1 {background-color:#A52A2A;
+h1 {
 font-family:Arial, Helvetica, sans-serif;
  }
 h2 {
@@ -14,9 +23,10 @@ h2 {
 }
  footer{
     flex-flow:row wrap;
-    height:55px;
+    height:80px;
     text-align:center;
     background-color:#A52A2A;
+    border-radius: 10px;
 }
 #lastmod{
     font-weight: 400;
