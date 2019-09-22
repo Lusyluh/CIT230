@@ -4,7 +4,7 @@ document.getElementById("currentYear").textContent = updates.getFullYear();
 
 
 
-document.getElementById("dateModified").textContent =document.lastModified;
+document.getElementById("dateModi").textContent= document.lastModified;
 
 
 
