@@ -5,7 +5,8 @@ header{
 }
 header img{
     width: 180px;
-    height: auto; 
+    height: auto;
+     
 }
 body{font-family: Arial, Helvetica, sans-serif;
     line-height:1.5em;
@@ -15,12 +16,9 @@ body{font-family: Arial, Helvetica, sans-serif;
 header,footer{background-color:#A52A2A;
     text-align:center;
     color:whitesmoke;
-    margin: 0 auto;
-    max-width:800px;
-    padding:16px;
-
+    
  }
- main{margin:0 auto;
+ header,footer,main{margin:0 1.5em;
     padding:1em;
     max-width:800px;
 }
