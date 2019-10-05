@@ -2,8 +2,7 @@
     header,
 footer {
     margin:0.3em 0.3em;
-    border-radius: 10px;
-    background-color: blue;  
+    border-radius: 10px;  
 }
 header h1{
     font-size:2em;

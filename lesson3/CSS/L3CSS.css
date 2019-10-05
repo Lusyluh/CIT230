@@ -8,7 +8,7 @@ body{font-family:'Montserrat', sans-serif;
 main h2{text-align:left;
     font-size: 1.5em;
     color:#22187F;
-    padding-left:0.5em;
+    padding-left:0.3em;
 }
 header,
 footer {
@@ -41,19 +41,19 @@ nav ul{display:flex;
     line-height: 2em;
     margin:0;
     padding:0;
-    background-color:red;
+    background-color:#00bfff;
     list-style-type: none;
     border-radius: 10px;   
 }
 nav li a{display: block;
-    color:#000;
+    color:#22187f;
     padding:8px 12px;
     text-align: center;
     text-decoration: none;
     font-size:0.9em;
 }
 
-nav a:hover{background-color:yellow;
+nav a:hover{background-color:#22187f;
     color:white;
     }
 
@@ -66,7 +66,8 @@ main section{border:1px solid #bbbbbb;
     margin-top:0.3em;
 }
 table,th,td{
-    border:1px solid black;
+    border:1px solid gray;
+    padding:0.25em;
     
 }
 table{width:100%;}
