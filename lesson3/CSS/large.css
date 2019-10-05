@@ -5,19 +5,21 @@ footer {
     background-color:greenyellow;
     }
 header h1{
-    font-size:3em;
+    font-size:2.5em;
     }
 header h2{
     font-size:1.5em;
     }
-nav a{
-    font-size: 1.5em;
-    align-items:center;
+
+nav ul{display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;   
     }
-nav li {
-    align-items: center;
-        }
-main{margin:0 auto;}
+nav li a {font-size: 1em;
+    align-items:center;
+}
+
 main section{
     padding:0 1em;
     }

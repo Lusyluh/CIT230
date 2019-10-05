@@ -3,7 +3,7 @@
 body{font-family:'Montserrat', sans-serif;
     font-size:16px;
     margin:0 auto;
-    max-width:1200px;
+    max-width:900px;
 }
 main h2{text-align:left;
     font-size: 1.5em;
@@ -13,7 +13,7 @@ main h2{text-align:left;
 header,
 footer {
     background-color:#00bfff;
-    margin:1.25em 0.5em;
+    margin:0.5em 0.5em;
     text-align:center;
 	align-items: center;
     padding: 1em;
@@ -31,33 +31,39 @@ header h2{color:#22187f;
 
 main p{
     text-align:justify;
-    padding:1em; }
-nav {
-    text-align: center;
-    
-}
-nav a{
-    color:#070c55;
-    font-size: 0.8em;
-    padding: 1em .6em;
-    
-}
+    padding:1em;
+    font-size:0.9em;
+ }
+ 
+
 nav ul{display:flex;
+    flex-direction: column;
     line-height: 2em;
     margin:0;
-    padding:0;   
+    padding:0;
+    background-color:red;
+    list-style-type: none;
+    border-radius: 10px;   
 }
-nav li{list-style-type: none;}
+nav li a{display: block;
+    color:#000;
+    padding:8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size:0.9em;
+}
 
-nav a:hover{color:yellow;
-    text-decoration:none;}
+nav a:hover{background-color:yellow;
+    color:white;
+    }
 
-nav a:active{color:red;
-      text-decoration:none;}
+nav a:active{background-color:gray;
+      color:white;}
 
 main section{border:1px solid #bbbbbb;
     border-radius:10px;
-    padding:0 0.5em;
+    padding:0.5em 0.5em;
+    margin-top:0.3em;
 }
 table,th,td{
     border:1px solid black;

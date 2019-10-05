@@ -1,19 +1,26 @@
 @media only screen and (min-width:32.5em){
     header,
 footer {
-    margin:1.5em 0.5em;
-    border-radius: 10px;  
+    margin:0.3em 0.3em;
+    border-radius: 10px;
+    background-color: blue;  
 }
 header h1{
-    font-size:2.5em;
+    font-size:2em;
     }
 header h2{
     font-size:1.25em;
     }
+nav ul{
+    flex-direction: row;
+    justify-content: space-around;   
+    }
+
 nav a{
     font-size: 1.5em;
     }
-nav li {
+nav li a {
     align-items: center;
+    padding:14px 16px;
     }
 }
