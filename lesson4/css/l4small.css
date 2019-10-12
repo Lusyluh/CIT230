@@ -1,0 +1,93 @@
+*  { margin: 0; box-sizing: border-box; }
+
+body{font-family:'Montserrat', sans-serif;
+    font-size:16px;
+    margin:0 auto;
+    max-width:900px;
+}
+main h2{text-align:left;
+    font-size: 1.5em;
+    color:#22187F;
+    padding-left:0.3em;
+}
+header,
+footer {
+    background-color:#00bfff;
+    margin:0.5em 0.5em;
+    text-align:center;
+	align-items: center;
+    padding: 1em;
+    
+}
+header h1{
+    color: #22187F;
+    font-size:1.7em;
+    /*font-weight: bold;*/
+    
+    }
+header{
+    display:flex;
+    justify-content:center;
+}
+/* styling the logo image*/
+header img{width:100px;
+    height:auto;
+}
+.headings{display:flex;
+    flex-direction: column;
+}
+.motto{font-style: italic;
+    font-size:0.8em;
+    margin-left:25px;
+    color:red;
+
+}
+/*Navigation bar css styling here*/
+nav{
+    margin:0 auto;
+    max-width: 900px;
+    background-color:#00bfff;
+}
+.navigationbar{
+    text-align:center;
+    padding:0;
+    list-style:none;
+    margin:0;
+}
+.navigationbar li:first-child{
+    display:block;
+}
+.navigationbar li {
+    display:none;
+}
+.navigationbar a{display: block;
+    color:#22187f;
+    padding:0.5em;
+    text-align: center;
+    text-decoration:none;
+    font-size:0.9em;
+}
+.responsive li{
+    display:block;
+}
+
+nav a:hover{background-color:#22187f;
+    color:white;
+    }
+
+nav a:active{background-color:gray;
+    color:white;}
+
+
+/*Main css styling here*/
+main p{
+    text-align:justify;
+    padding:1em;
+    font-size:0.9em;
+}
+
+main section{border:1px solid #bbbbbb;
+    border-radius:10px;
+    padding:0.5em 0.5em;
+    margin-top:0.3em;
+}
