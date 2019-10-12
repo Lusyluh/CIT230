@@ -17,15 +17,17 @@
         <header>
             <picture><img src ="images/kweather.png" alt = "Weather site Logo" > </picture>
             <section class="headings">
-                <h1><strong>Weatherguru</strong></h1>
-                <div class="motto">The most accurate weather data!</div>
+                <div>
+                    <h1><strong>Weatherguru</strong></h1>
+                    <p class="motto">The most accurate weather data!</p>
+                </div>
             </section>        
         </header>
         <nav><!--navigation here-->
             <ul class="navigationbar">
                 <li><a href="#"onclick="toggleMenu()">&#9776;Menu</a></li>
                 <li><a href ="#">Home</a></li>
-                <li><a href ="#">Preston</a></li>
+                <li><a href ="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -34,16 +36,19 @@
         </nav> 
         <main><!--main content of the page here--> 
             <h2>Preston Idaho</h2>
-            <div></div>
+            <div class="weathersum">Weather Summary</div>
+            <div class="contentarea">5 day weather forecast</div>
+            <div class="contentarea">Article</div>
+            <div class="contentarea">Contact Information</div>
        
 
         </main>
         <footer>
-            <p id="Colmod">&copy;<span id="currentYear"></span> weatherguru|Lusanda Mavuma|South Africa|<a href="https://www.byui.edu/online">BYUI-Online Learning</a></p>
+            <p>&copy;<span id="currentYear"></span> weatherguru|Lusanda Mavuma|South Africa|<a href="https://www.byui.edu/online">BYUI-Online Learning</a></p>
              
-            <p id="modDate">Last Updated:<span id="dateModi"></span></p>                 
+            <p></p><span id="day"></span></p>                 
         </footer>
-        <script src="Javascript/date.js"></script>
+        <script src="js/updates.js"></script>
         
         
     </body>

@@ -2,18 +2,13 @@
 
 body{font-family:'Montserrat', sans-serif;
     font-size:16px;
-    margin:0 auto;
-    max-width:900px;
-}
-main h2{text-align:left;
-    font-size: 1.5em;
-    color:#22187F;
-    padding-left:0.3em;
+    /*margin:0 auto;
+    max-width:900px;*/
 }
 header,
 footer {
     background-color:#00bfff;
-    margin:0.5em 0.5em;
+    margin:0 auto;
     text-align:center;
 	align-items: center;
     padding: 1em;
@@ -22,7 +17,7 @@ footer {
 header h1{
     color: #22187F;
     font-size:1.7em;
-    /*font-weight: bold;*/
+    margin:-2px;
     
     }
 header{
@@ -45,8 +40,8 @@ header img{width:100px;
 /*Navigation bar css styling here*/
 nav{
     margin:0 auto;
-    max-width: 900px;
     background-color:#00bfff;
+    border:0.5px solid #bbbbbb;
 }
 .navigationbar{
     text-align:center;
@@ -62,7 +57,7 @@ nav{
 }
 .navigationbar a{display: block;
     color:#22187f;
-    padding:0.5em;
+    padding:10px;
     text-align: center;
     text-decoration:none;
     font-size:0.9em;
@@ -80,14 +75,31 @@ nav a:active{background-color:gray;
 
 
 /*Main css styling here*/
+/*main {
+    display:block;
+    max-width:780px;
+    margin:0 auto;
+}*/
 main p{
     text-align:justify;
     padding:1em;
     font-size:0.9em;
 }
 
-main section{border:1px solid #bbbbbb;
-    border-radius:10px;
-    padding:0.5em 0.5em;
-    margin-top:0.3em;
+main h2{text-align:center;
+    font-size: 1.5em;
+    color:#22187F;
+    padding:25px;
+    
+}
+.weathersum{
+    border:1px solid #bbbbbb;
+    padding:15px;
+    background-color:#D3D3D3;
+}
+.contentarea{
+    border:1px solid #bbb;
+    padding:15px;
+    margin:0.3em auto;
+    background-color:#D3D3D3;
 }
