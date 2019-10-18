@@ -92,14 +92,41 @@ main h2{text-align:center;
     padding:25px;
     
 }
-.weathersum{
+/*.weathersum{
     border:1px solid #bbbbbb;
     padding:15px;
     background-color:#D3D3D3;
 }
+*/
+.container1{
+    margin:10px auto;
+    border:1px solid #000;
+    width:980px;
+    height:300px;
+}
+.heroImg{
+    position:relative;
+    margin: 0px auto;
+    width:100%;
+    height:250px;
+}
+.weatherSum{
+    position:absolute;
+    top: 320px;
+    left:220px;
+    border:1px solid white;
+    background-color: #ffff80;opacity:0.6;
+}
 .contentarea{
     border:1px solid #bbb;
-    padding:15px;
     margin:0.3em auto;
+    width:980px;
+    height:650px;
     background-color:#D3D3D3;
+}
+.articleimg{
+    border:1px dotted #000;
+    margin:10px auto;
+    width:95%;
+    height: 250px;
 }
