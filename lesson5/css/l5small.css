@@ -2,8 +2,7 @@
 
 body{font-family:'Montserrat', sans-serif;
     font-size:16px;
-    /*margin:0 auto;
-    max-width:900px;*/
+   
 }
 header,
 footer {
@@ -70,8 +69,9 @@ nav a:hover{background-color:#22187f;
     color:white;
     }
 
-li .active{background-color:gray;
-    color:white;}
+nav a.active{background-color:#22187f;
+    color:white;
+}
 
 
 /*Main css styling here*/
@@ -92,48 +92,60 @@ main h2{text-align:center;
     padding:25px;
     
 }
-/*.weathersum{
-    border:1px solid #bbbbbb;
-    padding:15px;
-    background-color:#D3D3D3;
-}
-*/
+
 .container1{
+    position:relative;
     margin:10px auto;
     border:1px solid #000;
-    width:980px;
-    height:300px;
+    width:100%;
+    height:auto;
 }
 .heroImg{
-    position:relative;
-    margin: 0px auto;
+    display:block;
+    overflow:hidden;
+    margin: 0;
     width:100%;
     height:auto;
 }
 .weatherSum{
     position:absolute;
-    top: 320px;
-    left:220px;
+    top: 10px;
+    left:10px;
     border:1px solid white;
-    background-color: #ffff80;opacity:0.6;
+    text-align:justify;
+    background-color: #ffff80;opacity:0.5;
+    width:200px;
+    height:150px;
+    font-size:0.8em;
 }
 .contentarea{
     border:1px solid #bbb;
     margin:0.3em auto;
-    width:980px;
-    height:650px;
+    width:100%;
+    height:auto;
     background-color:#D3D3D3;
+    margin-top:30px;
 }
 .articleimg{
     border:1px dotted #000;
     margin:10px auto;
-    width:95%;
-    height: 250px;
+    width:100%;
+    height: auto;
+}
+#articlecontent{
+    text-align:justify;
 }
 .contactarea{
     border:1px dotted #000;
-    width:980px;
-    height:300px;
-    margin:0 auto;
-    
+    width:100%;
+    height:auto;
+    margin:5px auto;  
+}
+.contact-info{
+    text-align: center;
+}
+.presmap{
+    width:100%;
+    height:auto;
+    box-shadow:0px 0px 5px grey;
 }

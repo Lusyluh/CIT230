@@ -29,13 +29,8 @@
         display:block;
         flex:1 1 100%;
     }
-    .weathersum{
-        padding:20px;
-    }
-    .contentarea{
-        padding:20px;
-        margin:0.4em auto;
-        
-    }
 
+    .presmap{
+        float: left;
+    }
 }
