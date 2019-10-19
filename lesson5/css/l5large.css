@@ -1,0 +1,41 @@
+@media only screen and (min-width:32.5em){
+
+    main, footer{
+        max-width:1200px;
+        margin:0 auto;
+    }
+   
+    header h1{
+        font-size:2.5em;  
+    }
+    .motto{
+        font-size:1.1em;
+        letter-spacing:2px;
+        margin-left:60px;
+    }
+    header img{
+        width:100%;
+    }
+    /*css styling of navigation bar for large windows*/
+    
+    .navigationbar{
+        display:flex;
+        
+    }
+    .navigationbar li:first-child{
+        display:none;
+    }
+    .navigationbar li {
+        display:block;
+        flex:1 1 100%;
+    }
+    .weathersum{
+        padding:20px;
+    }
+    .contentarea{
+        padding:20px;
+        margin:0.4em auto;
+        
+    }
+
+}
