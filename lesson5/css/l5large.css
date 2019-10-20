@@ -1,7 +1,7 @@
 @media only screen and (min-width:32.5em){
 
     main, footer{
-        max-width:1200px;
+        max-width:1200PX;
         margin:0 auto;
     }
    
@@ -28,6 +28,20 @@
     .navigationbar li {
         display:block;
         flex:1 1 100%;
+    }
+    .contentarea{
+        height:200px;
+    }
+    /*.articleimg img{
+        width:100px;
+        height:100px;
+        float:right;
+        box-shadow:5px 5px 5px grey;
+        margin-top:-60px;
+    }*/
+    .article-pic{
+        float:right;
+        margin-top:-60px;
     }
 
     .presmap{
