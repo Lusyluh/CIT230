@@ -27,7 +27,7 @@ function newDay(args){
 }
 
 function display_banner{
-    if(now.getDate() == "Monday"){
+    if(now.newDay() == "Monday"){
         let banner_dis = document.getElementById("fridayBanner")
         banner_dis.style.display = "block"
 
