@@ -4,9 +4,7 @@ body{font-family:'Montserrat', sans-serif;
     font-size:16px;
    
 }
-#fridaybanner{
-    display:none;
-}
+
 header,
 footer {
     background-color:#00bfff;
@@ -207,4 +205,10 @@ main h3{
 .social-icons{
     align-items: center;
     padding:60px;
+}
+#fridaybanner{
+    display:none;
+    background-color:#ba1309; 
+    line-height:25px;
+    font-size:20px;
 }
