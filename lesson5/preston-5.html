@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href = "images/myfavicon.ico" type="image/x-icon">
         <link rel="stylesheet" href = "css/normalize.css">
         <link rel="stylesheet" href="css/l5small.css">
-        <!--<link rel="stylesheet" href = "CSS/medium.css">-->
+        <link rel="stylesheet" href = "CSS/l5middle.css">
         <link rel="stylesheet" href = "css/l5large.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <script src="js/toggle.js"></script>
@@ -35,46 +35,65 @@
                 <li><a href="#">Gallery</a></li>
             </ul>
         </nav> 
-        <main><!--main content of the page here--> 
+        <main>
+            <!--weather summary and here image--> 
             <h2>Preston Idaho</h2>
             <div class="container1">
                 <img class="heroImg" src="images/heroimage2.jpg" alt="Preston Town">
                 <div class="weatherSum">
-                    <h3>Weather Summary</h3>
+                    <h3><b>Weather Summary</b></h3>
                     <p>Currently:<span>Sunny</span></p>
-                    <p>High:<span>30°C</span></p>
+                    <p>High:<span>30&deg;C</span></p>
                     <p>Wind Speed:<span>20km/h</span></p>
                     <p>Humidity: <span>69%</span></p>
                     <p>Chance of Rain :<span>5%</span></p>
                 </div>
             </div>
-
-            <!---<section>
-                    <h2>5 Day Forecast</h2>
-                    <div class="table">
-                    <div class="forecast"><h4>Sun</h4><p><img src="images/sunny.png" alt="Sun icon">30°C</p></div>
-                    <div class="forecast"><h3>Mon</h3><p><img src="images/sunny.png" alt="Sun icon">24°C</p></div>
-                    <div class="forecast"><h3>Tue</h3><p><img src="images/overcast.png" alt="Overcast icon">18°C</p></div>
-                    <div class="forecast"><h3>Wed</h3><p><img src="images/sunny.png" alt="Sun icon">32°C</p></div>
-                    <div class="forecast"><h3>Thur</h3><p><img src="images/sunny.png" alt="Sun icon">35°C</p></div>
+            <!--5day forecast goes here-->
+            <section class="forecast-area">
+                <h2>5 Day Forecast</h2>
+                <div class="fiveday">
+                    <div class="forecast">
+                        <span class="weekday">Wed</span>
+                        <img src="images/sunny.png" alt="Sunny" width=100px height=100px>
+                        <span class="weather-data">30&deg;C</span>
                     </div>
-            </section>-->
+                    <div class="forecast">
+                        <span class="weekday">Thur</span>
+                        <img src="images/sunny.png" alt="Sunny" width=100px height=100px>
+                        <span class="weather-data">24&deg;C</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday">Fri</span>
+                        <img src="images/sunny.png" alt="Sunny" width=100px height=100px>
+                        <span class="weather-data">34&deg;C</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday">Sat</span>
+                        <img src="images/sunny.png" alt="Sunny" width=100px height=100px>
+                        <span class="weather-data">29&deg;C</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday">Sun</span>
+                        <img src="images/sunny.png" alt="Sunny"width=100px height=100px>
+                        <span class="weather-data">31&deg;C</span>
+                    </div>
+                </div>
+            </section>
            
             <div class="article-area"><!--article area-->
+                <img class="articleimg" src="images/zion-park-139012_640.jpg" alt="Seasons of the year" >
                 <div class="article-holder">
                     <h3>Getting Ready for another season</h3>
                     <h5><i>Written by: Lusanda Mavuma</i></h5>
-                    <p>Massa sapien faucibus et molestie ac feugiat sed. Facilisis gravida neque convallis a cras semper. Porttitor massa id neque aliquam vestibulum. Id volutpat lacus laoreet non curabitur gravida arcu ac. <br>
-                        Consectetur purus ut faucibus pulvinar elementum integer enim neque. Est placerat in egestas erat.Vitae nunc sed velit dignissim sodales ut eu sem integer. Purus semper eget duis at tellus. Neque aliquam vestibulum morbi blandit cursus. A cras semper auctor neque. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.
-                        Lectus nulla at volutpat diam ut venenatis tellus. Aliquam sem et tortor consequat id porta nibh. Donec ac odio tempor orci dapibus ultrices in iaculis. Sit amet dictum sit amet justo donec. Nibh praesent tristique magna sit.
-                    </p>
-
+                    <p>Massa sapien faucibus et molestie ac feugiat sed. Facilisis gravida neque convallis a cras semper. Porttitor massa id neque aliquam vestibulum. Id volutpat lacus laoreet non curabitur gravida arcu ac.</p>
+                    <p>Consectetur purus ut faucibus pulvinar elementum integer enim neque. Est placerat in egestas erat.Vitae nunc sed velit dignissim sodales ut eu sem integer. Purus semper eget duis at tellus. Neque aliquam vestibulum morbi blandit cursus.</p>
+                    <p>A cras semper auctor neque. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.</p>
+                    <p>Lectus nulla at volutpat diam ut venenatis tellus. Aliquam sem et tortor consequat id porta nibh. Donec ac odio tempor orci dapibus ultrices in iaculis. Sit amet dictum sit amet justo donec. Nibh praesent tristique magna sit.</p>
                 </div>
-                    <img class="articleimg" src="images/zion-park-139012_640.jpg" alt="Seasons of the year" >
-        
             </div>
             <!---contact information goes here-->
-            <div class="contactarea"><!---contact information area-->
+            <div class="contactarea">
                         <img class="presmap" src="images/preston-map.png" alt="preston">
                 <div class="contact-info">
                     <h3>Contact Details</h3>
@@ -82,7 +101,13 @@
                     <P class="details">&#128234;Preston, ID 83263</P>
                     <P class="details">&#128222;+999-999-9999</P>
                     <P class="details">&#128140; info@weatherguru.com</P>
-                </div>
+                <!---social media content-->
+                    <a target="_blank" href="https://www.facebook.com">
+                        <img src="images/facebook.png" alt="Facebook icon" width="30" height="30"></a>
+                    <a target="_blank" href="https://www.instagram.com">
+                        <img src="images/instagram.png" alt="Instagram icon" width="30" height="30"></a>
+                    <a target="_blank" href="https://www.twitter.com">
+                        <img src="images/twitter.png" alt="Twitter icon" width="30" height="30"></a>
                 
             </div>
         </main>
