@@ -26,16 +26,15 @@ function newDay(args){
     }
 }
 
-function display_banner{
+function display_banner(){
     if(now.newDay() == "Monday"){
         let banner_dis = document.getElementById("fridayBanner")
-        banner_dis.style.display = "block"
+        banner_dis.style.display = "block"}
 
     display_msg();
     }
-function display_msg{
+function display_msg(){
     let msg = Saturday = "Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
     document.getElementById("fridaybanner").innerHTML = msg;
 }
 
-}
