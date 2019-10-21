@@ -29,27 +29,25 @@
         display:block;
         flex:1 1 100%;
     }
-    /*css styling for the content*/
+    /*css styling for the hero image and weather summary content*/
     .weatherSum{color:white;
         width:250px;
     
     }
-    .contentarea{
-        height:auto;
-    }
-    .articleimg{
-        width:100%;
-        float:right;
-        box-shadow:5px 5px 5px grey;
-        margin-top:-60px;
-    }
-    /*.contentarea .article-pic{
-        float:right;
-        margin-top:-100px;
-    }*/
 
+    .articleimg{
+        float:left;
+        margin-top:-60px;
+        width:300px;
+    }
     .presmap{
         float: left;
         border-radius: 10px;
+        width:300px;
+    }
+
+    .contactarea{
+                    height: 300px;
+ 
     }
 }

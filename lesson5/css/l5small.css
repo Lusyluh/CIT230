@@ -126,19 +126,19 @@ main h2{text-align:center;
 /*css for the article and the image*/
 .article-area{
     border:1px solid #bbb;
-    margin:0.3em auto;
-    width:100%;
-    height:auto;
+    margin:0.3em auto;   
     background-color:#D3D3D3;
     margin-top:30px;
     padding:10px;
     text-align:left;
 }
 .articleimg{
-    margin:10px auto;
-    width:100%;
+    display:block;
+    margin:auto;
+    max-width:100%;
     height: auto;
     box-shadow:5px 5px 5px grey;
+
 }
 /*css for the contact information*/
 .contactarea{
@@ -147,6 +147,12 @@ main h2{text-align:center;
     margin:10px auto;
     padding:15px;  
 }
+
+#article-holder{
+                text-align:center;
+                padding-top:25px;
+}
+
 .contact-info{
     text-align:center;
     padding-top:25px;
