@@ -1,4 +1,4 @@
-@media only screen and (min-width:33em){
+@media only screen and (min-width:32.5em){
 
     main, footer{
         max-width:1200PX;
@@ -32,7 +32,6 @@
     /*css styling for the hero image and weather summary content*/
     .weatherSum{
         width:250px;
-    
     }
     .article-area{
         height:350px;
