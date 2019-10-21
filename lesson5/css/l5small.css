@@ -95,8 +95,7 @@ main h2{text-align:center;
 .container1{
     position:relative;
     margin:10px auto;
-    border:1px solid #000;
-    width:100%;
+    max-width:100%;
     height:auto;
 }
 .heroImg{
@@ -108,21 +107,24 @@ main h2{text-align:center;
 }
 .weatherSum{
     position:absolute;
-    top: 10px;
+    top: 15px;
     left:10px;
-    background-coloR:#ffff80;opacity:0.5;
+    background:radial-gradient(#eee,#1e90ff);
+    opacity:0.8;
     text-align:left;
-    font-size:0.8em;
-    box-shadow:0 0 30px #ffff80;
-    font-weight:100;
-    display:block;
+    font-size:0.9em;
+    box-shadow:0 0 30px #000;
+    font-weight:700;
     padding:0.8em;
+    border:0.5px solid #000;
+    
 
 }
 .weatherSum h3{
     border-bottom:1px solid #000;
 }
-.contentarea{
+/*css for the article and the image*/
+.article-area{
     border:1px solid #bbb;
     margin:0.3em auto;
     width:100%;
@@ -130,20 +132,15 @@ main h2{text-align:center;
     background-color:#D3D3D3;
     margin-top:30px;
     padding:10px;
+    text-align:left;
 }
 .articleimg{
     margin:10px auto;
     width:100%;
     height: auto;
+    box-shadow:5px 5px 5px grey;
 }
-.article-pic{
-    display:block;
-    box-shadow: 5px 5px 5px #000;
-}
-#articlecontent{
-    text-align:left;
-    padding:10px;
-}
+/*css for the contact information*/
 .contactarea{
     width:100%;
     height:auto;
