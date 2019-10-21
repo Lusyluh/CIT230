@@ -6,9 +6,6 @@ body{font-family:'Montserrat', sans-serif;
 }
 #fridaybanner{
     display:none;
-    background-color:#ba1309; 
-    line-height:25px;
-    font-size:20px;
 }
 header,
 footer {

@@ -61,5 +61,10 @@
     .contact-info{
         margin-top:60px;
     }
+    #fridaybanner{
+        background-color:#ba1309; 
+        line-height:25px;
+        font-size:20px;
+    }
 
 }
