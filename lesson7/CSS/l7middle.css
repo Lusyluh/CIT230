@@ -66,9 +66,5 @@
         line-height:25px;
         font-size:20px;
     }
-    /* CSS styling for the gallery page*/
-    .img-gallery{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
 }
