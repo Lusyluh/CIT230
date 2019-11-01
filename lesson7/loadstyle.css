@@ -1,0 +1,13 @@
+
+
+picture { 
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+}
+
+img {
+    border:1px solid #000;
+    padding:20px;
+}
