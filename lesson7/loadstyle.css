@@ -1,13 +1,13 @@
 
 
-picture { 
+.gridview { 
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: (300px,1fr);
     justify-content: center;
 
 }
 
 img {
     border:1px solid #000;
-    padding:20px;
+    
 }
