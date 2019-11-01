@@ -1,13 +1,20 @@
+h1{
+    text-align:center;
+}
 
-
-.gridview { 
+.gridview picture { 
     display:grid;
     grid-template-columns: (300px,1fr);
     justify-content: center;
+    padding:5px;
 
 }
 
+img[data-src] {
+    filter: blur(0.4em);
+  }
 img {
-    border:1px solid #000;
-    
+  filter: blur(0em);
+  transition: filter 4s;
+  border:1px solid grey;
 }
