@@ -1,7 +1,7 @@
 @media only screen and (min-width:32.5em){
 
     main, footer{
-        max-width:1200PX;
+        /*max-width:1200PX;*/
         margin:0 auto;
     }
    
@@ -66,5 +66,10 @@
         line-height:25px;
         font-size:20px;
     }
+/* css for gallery tab*/
+.img-gallery{
+    grid-template-columns:ifr 1fr;
+    
+}
 
 }
