@@ -13,4 +13,7 @@
         margin:auto;
         justify-items: center;
     }
+    .img-gallery{
+        grid-template-columns: 1fr 1fr 1fr; 
+}
 }
