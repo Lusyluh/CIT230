@@ -67,7 +67,7 @@
         font-size:20px;
     }
 /* css for gallery tab*/
-.img-gallery{
+.img-gallery figure{
     grid-template-columns:ifr 1fr;
     
 }
