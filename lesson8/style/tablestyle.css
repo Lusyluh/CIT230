@@ -6,14 +6,13 @@ table,th,td{
 table{
     box-shadow: 5px 5px 5px 5px #628ca6;
 }
-th {
+thead {
     text-align:center;
-    font-weight: 600;
-    padding:15px;
+    font-weight: 900;
     background-color:#7fb9c2 ;
-    font-size:26px;
+    font-size:30px;
 }
-td {
+tbody td {
     padding:10px;
     
 }
@@ -21,18 +20,18 @@ td {
     background-color: #628ca6;
     color:#e7f0ed
 }
-tbody tr:nth-child(1){
+tbody th{
     background-color:#628ca6;
     color: whitesmoke;
-    font-weight:bold;   
+    font-weight:bold;
+    padding:10px;   
 }
-tr:nth-child(odd){
-    background-color:#e7ffed;
-}
-tr
+
 tfoot{
     background-color:#7fb9c2;
     font-size:12px;
-    text-align:center;
-    
+    text-align:center;  
+    padding:10px;
 }
+tbody tr:nth-child(odd){
+    background-color:#e7ffed;
