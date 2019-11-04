@@ -1,0 +1,34 @@
+table,th,td{
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+}
+table{
+    box-shadow: 5px 5px 5px 5px #628ca6;
+}
+th {
+    text-align:center;
+    font-weight: 600;
+    padding:15px;
+    background-color:#7fb9c2 ;
+    font-size:26px;
+}
+td {
+    padding:10px;
+    
+}
+#cell1{
+    background-color: #628ca6;
+    color:#e7f0ed
+}
+tbody tr:nth-child(1){
+    background-color:#628ca6;
+    color: #e7ffed;
+    font-weight:bold;   
+}
+tfoot{
+    background-color:#7fb9c2;
+    font-size:12px;
+    text-align:center;
+    
+}
