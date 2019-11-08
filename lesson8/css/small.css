@@ -12,6 +12,7 @@ footer {
     text-align:center;
 	align-items: center;
     padding: 1em;
+    font-size:smaller;
     
 }
 header h1{
@@ -55,7 +56,8 @@ nav{
 .navigationbar li {
     display:none;
 }
-.navigationbar a{display: block;
+.navigationbar a{
+    display: block;
     color:#22187f;
     padding:10px;
     text-align: center;
@@ -217,7 +219,8 @@ form fieldset{
     margin:2rem 0;
     border:1px solid gray;
     border-radius:10px;
-    padding: .5rem 5%;
+    padding: .5rem 2%;
+    background-color:#eee;
     
 }
 form legend{
@@ -225,13 +228,14 @@ form legend{
     padding:0 .5rem;
     color:#22187F;
 }
-form label.top,form div {
+form label.top, form div {
     color:#ba1309;
     display:block;
     font-size:smaller;
     padding-top:1rem;
+    padding-bottom:1rem;
 }
-form label.top input{
+form label.top input, form label.top select{
     display:block;
     padding: .5rem;
     border-radius:4px;
@@ -239,3 +243,28 @@ form label.top input{
     width:100%;
     max-width:20rem;
 }
+form label.rbtn{
+    display:block;
+    padding: 0.75rem;
+    font-size:0.75rem;
+}
+form label.txtarea{
+    display:block;
+    font-size:0.75rem;
+    
+
+}
+form input.subBtn{
+    background-color:#ba1309;
+    border-radius:3px;
+    border:none;
+    padding:.5rem;
+    margin-bottom:1.5%;
+    width:150px;
+}
+/*form label.top input:required:valid {
+    border-left:4px solid green;
+}
+form label.top input:required:invalid {
+    border-left:4px solid red;
+}*/

@@ -45,8 +45,6 @@
                 <label class="top">E-mail<input type="email" name="email" placeholder="example@gmail.com"></label>
                 <label class="top">Phone Number*<input type="tel" name="phone" placeholder="123-456-7891"required></label>
                 <label class="top">Zip Code*<input type="number" name="zipcode" required></label>
-
-
             </fieldset>
             <!-------------------Section 2---------------------->
             <fieldset>
@@ -60,7 +58,9 @@
                     <option value="Thunderstorm">
                     <option value="Tornado">
                 </datalist>
-                <label>Storm Severity<input type="range"></label>
+                <label>Storm Severity (1-10)&nbsp;&nbsp;&nbsp;
+                <input type="range">
+                </label>
                 <label class="top">Storm region
                     <select name="regions">
                         <option value="" >Select Region</option>
@@ -69,19 +69,19 @@
                         <option value="fishHaven">Fish Haven</option>
                     </select>
                 </label>
-                <div>User in-danger level
-                <label><input type="radio" name="dangerlevel" value="Yes">Yes</label>
-                <label><input type="radio" name="dangerlevel" value="Maybe">Maybe</label>
-                <label><input type="radio" name="dangerlevel" value="No">No</label>
-            </div>
+                <div >Are you in-danger?</div>
+                <label class="rbtn"><input type="radio" name="dangerlevel" value="Yes">Yes</label>
+                <label class="rbtn"><input type="radio" name="dangerlevel" value="Maybe">Maybe</label>
+                <label class="rbtn"><input type="radio" name="dangerlevel" value="No">No</label>
+            
             </fieldset>
             <!--------------------Section 3---------------------->
             <fieldset>
                 <legend>Additional Information</legend>
-                <label><textarea name="comments" row="10" cols="30" placeholder="comment here...|"></textarea></label>
+                <label class="txtarea"><textarea name="comments" row="10" cols="30" placeholder="comment here...|"></textarea></label>
             </fieldset>
-            <br>
-            <input type="submit" value="Report Storm">
+            <!-------------------Submit button------------------->
+            <input type="submit" value="Report Storm" class="subBtn">
             </form>
             
         </main>
@@ -90,13 +90,13 @@
              
             <p><span id="day"></span></p>                 
         </footer>
-        <script src="/lesson/js/updates.js"></script>
-        <script src="/lesson/js/displaybanner.js"></script>
+        <script src="/lesson6/js/updates.js"></script>
+        <script src="/lesson6/js/displaybanner.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({google:{families: ['Roboto']}});
         </script>
-        <script src="/lesson/js/windchill.js"></script>
+        <script src="/lesson6/js/windchill.js"></script>
         
         
     </body>
