@@ -13,4 +13,10 @@
         margin:auto;
         justify-items: center;
     }
+    form label.top input, form label.top select{
+        max-width:30rem;
+    }
+    #thanksmsg{
+        font-size:24px;
+    }
 }
