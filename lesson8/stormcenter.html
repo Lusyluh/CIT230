@@ -37,17 +37,17 @@
                 <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
             </ul>
         </nav> 
-        <main><!----------------FORM---------------------------> 
-            <h1 id="storm_heading">Report a storm</h1>
+        <main><!--FORM--> 
+          <h1 id="storm_heading">Report a storm</h1>
             <form method="get" action="thanks.html">
                 <fieldset>
                 <legend>Personal Information</legend>
                 <label class="top">Full Name*<input type="text" name="fname" required pattern="[A-Za-z ]{5,99}"></label>
                 <label class="top">E-mail<input type="email" name="email" placeholder="example@gmail.com"></label>
-                <label class="top">Phone Number*<input type="tel" name="phone" placeholder="123-456-7891"required></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" placeholder="123-456-7891" required></label>
                 <label class="top">Zip Code*<input type="number" name="zipcode" required></label>
-            </fieldset>
-            <!-------------------Section 2---------------------->
+                </fieldset>
+            <!--Section 2-->
             <fieldset>
                 <legend>Storm Details</legend>
                 <label class="top">Storm Date<input type="date" name="stormdate"></label>
@@ -60,7 +60,7 @@
                     <option value="Tornado">
                 </datalist>
                 <label class="severity">Storm Severity (1-10): 
-                <input type="range" name="severity" min="1" max="10" step="1" list="topmarks"oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span>
+                <input type="range" name="severity" min="1" max="10" step="1" list="topmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span>
                 </label>
                 <datalist id="topmarks">
                     <option value="0">
@@ -89,12 +89,12 @@
                 <label class="rbtn"><input type="radio" name="dangerlevel" value="No">No</label>
             
             </fieldset>
-            <!--------------------Section 3---------------------->
+            <!--Section 3-->
             <fieldset>
                 <legend>Additional Information</legend>
-                <label class="txtarea"><textarea name="comments" row="10" cols="30" placeholder="comment here...|"></textarea></label>
+                <label class="txtarea"><textarea name="comments" rows="10" cols="30" placeholder="comment here...|"></textarea></label>
             </fieldset>
-            <!-------------------Submit button------------------->
+            <!--Submit button-->
             <input type="submit" value="Report Storm" class="subBtn">
             </form>
             
