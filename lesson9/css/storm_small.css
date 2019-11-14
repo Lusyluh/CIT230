@@ -1,0 +1,293 @@
+*  { margin: 0; box-sizing: border-box; }
+
+body{font-family:'Montserrat', sans-serif;
+    font-size:16px;
+   
+}
+
+header,
+footer {
+    background-color:#00bfff;
+    margin:0 auto;
+    text-align:center;
+	align-items: center;
+    padding: 1em;
+    font-size:smaller;
+    
+}
+header h1{
+    color: #22187F;
+    font-size:1.7em;
+    margin:-2px;
+    
+    }
+header{
+    display:flex;
+    justify-content:center;
+}
+/* styling the logo image*/
+header img{width:100px;
+    height:auto;
+}
+.headings{display:flex;
+    flex-direction: column;
+}
+.motto{font-style: italic;
+    font-size:0.8em;
+    margin-left:25px;
+    color:red;
+
+}
+/*Navigation bar css styling here*/
+nav{
+    margin:0 auto;
+    background-color:#00bfff;
+    border:0.5px solid #bbbbbb;
+}
+.navigationbar{
+    text-align:center;
+    padding:0;
+    list-style:none;
+    margin:0;
+}
+.navigationbar li:first-child{
+    display:block;
+}
+.navigationbar li {
+    display:none;
+}
+.navigationbar a{
+    display: block;
+    color:#22187f;
+    padding:10px;
+    text-align: center;
+    text-decoration:none;
+    font-size:0.9em;
+}
+.responsive li{
+    display:block;
+}
+
+nav a:hover{background-color:#22187f;
+    color:white;
+    }
+
+nav a.active{background-color:#22187f;
+    color:white;
+}
+
+
+/*Main css styling here*/
+main {
+    display:block;
+    max-width:1200px;
+    margin:0 auto;
+}
+main p{
+    padding:0.2em;
+    font-size:0.9em;
+}
+
+main h2{text-align:center;
+    font-size: 1.5em;
+    color:#22187F;
+    padding:25px;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px gray;
+}
+main h3{
+    color:#22187F;
+}
+
+.container1{
+    position:relative;
+    margin:10px auto;
+    max-width:100%;
+    height:auto;
+}
+.heroImg{
+    display:block;
+    overflow:hidden;
+    margin: 0;
+    width:100%;
+    height:auto;
+}
+.weatherSum{
+    position:absolute;
+    top: 15px;
+    left:10px;
+    background:radial-gradient(#eee,#1e90ff);
+    opacity:0.8;
+    text-align:left;
+    font-size:0.9em;
+    box-shadow:0 0 30px #000;
+    font-weight:700;
+    padding:0.8em;
+    border:0.5px solid #000;
+    
+
+}
+.weatherSum h3{
+    border-bottom:1px solid #000;
+}
+.forecast-area{
+    display:none;
+}
+.fiveday{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 15px gray;
+    
+}
+.forecast-area h2{
+    display:block;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.forecast{
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 1em;
+    
+    border-right:1px solid #000;
+}
+.weekday{
+    display: block;
+    background-color:#22187F;
+    color:white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.weather-data{
+    display:block;
+    font-weight: 600;
+}
+/*css for the article and the image*/
+.article-area{
+    border:1px solid #bbb;
+    margin:10px auto;   
+    background-color:#D3D3D3;
+    margin-top:30px;
+    padding:10px;
+}
+.article-holder{
+    text-align:left;
+    padding-top:25px;
+
+}
+.articleimg{
+    display:block;
+    margin:auto;
+    max-width:100%;
+    height: auto;
+    box-shadow:5px 5px 5px #000;
+
+}
+/*css for the contact information*/
+.contactarea{
+    width:100%;
+    height:auto;
+    margin:10px auto;
+    padding:15px;  
+}
+.contact-info{
+    text-align:center;
+    padding-top:25px;
+}
+.details{
+    text-align:center;
+}
+.presmap{
+    display:none;
+}
+.social-icons{
+    align-items: center;
+    padding:60px;
+}
+#fridaybanner{
+    display:none;
+    background-color:#ba1309; 
+    line-height:25px;
+    font-size:20px;
+}
+/*----------------------------------------FORM CSS---------------------------------------------------*/
+#storm_heading{
+    color:#22187F;
+    text-align: center;
+    text-shadow: 3px 1.5px #999;
+}
+form fieldset{
+    margin:2rem 0;
+    border:1px solid gray;
+    border-radius:10px;
+    padding: .5rem 2%;
+    background-color:#eee;
+    
+}
+form legend{
+    margin:0 1rem;
+    padding:0 .5rem;
+    color:#22187F;
+}
+form label.top, form div {
+    color:#ba1309;
+    display:block;
+    font-size:smaller;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+form label.top input, form label.top select{
+    display:block;
+    padding: .5rem;
+    border-radius:4px;
+    border:1px solid gray;
+    width:100%;
+    max-width:20rem;
+}
+form label.severity{
+    display:flex;
+    color:#ba1309;
+    font-size:smaller;
+    align-items: center;
+}
+#ratingvalue{
+    margin:0 1rem;
+}
+form label.rbtn{
+    display:block;
+    padding: 0.75rem;
+    font-size:0.75rem;
+}
+
+textarea{
+    width:100%;
+    height:8em;
+    max-width:70%;
+}
+form input.subBtn{
+    background-color:#ba1309;
+    border-radius:4px;
+    border:none;
+    padding:.5rem;
+    margin-bottom:1.5%;
+    width:150px;
+}
+#thanksmsg{
+    font-size:16px;
+    color: #000;
+    text-align: center;
+    width:80%;
+    max-width:1200px;
+    margin:10rem auto;
+}
+
+/*form label.top input:required:valid {
+    border-left:4px solid green;
+}
+form label.top input:required:invalid {
+    background-color:red;
+}*/
