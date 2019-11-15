@@ -1,9 +1,7 @@
 body{
     font-family:'Montserrat', sans-serif;
-    margin: 0 auto;
-    
+      
 }
-
 
 h1{
     text-align:center;
@@ -19,24 +17,27 @@ footer{
     padding: 10px;
     font-weight:bold;
 }
-img{
-    width:300px;
-    height:400px;
-    margin:10px 10px;
-    border:1px solid grey;
 
-}
 .cards{
     display:grid;
     grid-template-columns: 1fr;
+    max-width:90%;
+    margin:0 auto;
+    
 }
 
 section{
     border: 2px solid #000;
-    margin: 10px auto;
+    margin: 5px;
     background-color: #22187F;
     color: whitesmoke;
     text-align:center;
+}
+img{
+    max-width:70%;
+    margin:10px 10px;
+    border:1px solid grey;
+
 }
 
 
