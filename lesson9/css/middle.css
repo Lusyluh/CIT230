@@ -71,4 +71,34 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    /*css styling for home page*/
+    .townData{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .townData section{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items:center;
+        padding: 20px;
+
+    }
+    .townData img{
+        width:100%;
+        max-width:350px;
+    }
+    .townData h4{
+        width:350px;
+    }
+    .townData section:nth-child(2){
+        flex-direction:row-reverse;
+
+    }
+    .townData section:nth-child(1){
+        flex-direction:row-reverse;
+
+    }
+
 }

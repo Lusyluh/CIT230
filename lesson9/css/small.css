@@ -92,8 +92,8 @@ main h2{text-align:center;
     font-size: 1.5em;
     color:#22187F;
     padding:25px;
-    font-weight: 700;
-    text-shadow: 3px 3px 5px gray;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px gray;
 }
 main h3{
     color:#22187F;
@@ -291,3 +291,38 @@ form input.subBtn{
 form label.top input:required:invalid {
     background-color:red;
 }*/
+
+/*---css for home page---*/
+
+
+.townData section {
+    width:90%;
+    border: 1px solid #000;
+    margin: 10px auto;
+    color: #000000;
+    text-align:center;
+}
+.townData img{
+    width:100%;
+    max-width:350px;
+    margin: .5rem auto;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 10px;
+}
+
+.townData{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+}
+.townData p {
+    padding:.2rem;
+}
+.townData h4{
+    padding: .1rem;
+    font-style: italic;
+}
+.townData section:nth-child(1){order:3;}
+.townData section:nth-child(2){order:1;}
+.townData section:nth-child(3){order:2;}
