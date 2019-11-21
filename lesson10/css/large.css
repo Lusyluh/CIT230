@@ -1,0 +1,48 @@
+@media only screen and (min-width:60em){
+    
+    .weatherSum{
+        font-size:1.2em;
+        width:300px;
+        height:50%;
+        padding:20px;
+        line-height:30px;
+    
+    }
+    .forecast-area{
+        display:inline;
+        margin:auto;
+        justify-items: center;
+    }
+    form label.top input, form label.top select{
+        max-width:30rem;
+    }
+    #thanksmsg{
+        font-size:24px;
+    }
+    /*css for home page*/
+    .townData{
+        display: flex;
+        flex-direction:row;
+        
+        
+    }
+    .townData section{
+        display:flex;
+        flex-direction: column;
+        width:350px; 
+        box-shadow: 3px 3px 5px grey;  
+    }
+    .townData img{
+        width:100%;
+        max-width:300px;
+       
+    }
+    .townData section:nth-child(2){
+        flex-direction:column;
+
+    }
+    .townData section:nth-child(1){
+        flex-direction:column;
+
+    }
+}
