@@ -46,14 +46,32 @@
                     <source srcset="images/heroImageLarge-950.jpg" media = "(min-width:960px)">
                     <img class="heroImg" src="images/heroimage2.jpg" alt="Preston Town">
                 </picture>
-                <div class="weatherSum">
-                    <h3><b>Weather Summary</b></h3>
-                    <p>Currently: <span>Sunny</span></p>
-                    <p>High: <span id="temp">50</span>&deg;F</p>
-                    <p>Wind Speed: <span id="windSpeed">4</span>mph</p>
-                    <p>Wind Chill: <span id="windChill"></span></p>
-                    <p>Humidity: <span>69%</span></p>
-                </div>
+                <table class="weatherSum">
+                    <tr>
+                        <th colspan="2">Weather Summary</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>Currently :</td>
+                        <td><span id="currently"></span></td>
+                    </tr>
+                    <tr>
+                        <td>High :</td>
+                        <td> <span id="temp"></span>&deg;F</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed :</td>
+                        <td><span id="windSpeed"></span>mph</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill :</td>
+                        <td><span id="windChill"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Humidity :</td>
+                        <td><span id="humidity"></span>&#37;</td> 
+                    </tr>
+                </table>
             </div>
             <!--5day forecast goes here-->
             <section class="forecast-area">
@@ -61,8 +79,8 @@
                 <div class="fiveday">
                     <div class="forecast">
                         <span class="weekday">Wed</span>
-                        <img src="images/sunny.png" alt="Sunny" width="100" height="100">
-                        <span class="weather-data">86&deg;F</span>
+                        <img src="" alt="" id="icon1">
+                        <span class="weather-data">&deg;F</span>
                     </div>
                     <div class="forecast">
                         <span class="weekday">Thur</span>
@@ -129,7 +147,7 @@
             WebFont.load({google:{families: ['Roboto']}});
         </script>
         <script src="js/windchill.js"></script>
-        
+        <script src="js/prestonweatherapi.js"></script>
         
     </body>
 </html>
