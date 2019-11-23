@@ -29,12 +29,12 @@
         <nav><!--navigation here-->
             <ul class="navigationbar">
                 <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href ="#">Home</a></li>
-                <li><a href ="preston-6.html" class="active">Preston</a></li>
+                <li><a href ="home.html">Home</a></li>
+                <li><a href ="preston-10.html" class="active">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
-                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
             </ul>
         </nav> 
         <main><!--weather summary and hero image--> 
@@ -60,7 +60,7 @@
                         <td> <span id="temp"></span>&deg;F</td>
                     </tr>
                     <tr>
-                        <td>Wind Speed :</td>
+                        <td>Wind Speed:</td>
                         <td><span id="windSpeed"></span>mph</td>
                     </tr>
                     <tr>
@@ -106,14 +106,28 @@
             </section>
            
             <div class="article-area"><!--article area-->
-                <img class="articleimg" src="images/zion-park-139012_640.jpg" alt="Seasons of the year" >
+                <img class="articleimg" src="images/zion-park-139012_640.jpg" alt="Winter Season" >
                 <div class="article-holder">
-                    <h3>Be prepared for winter</h3>
-                    <h5><i>Written by: Lusanda Mavuma</i></h5>
-                    <p>Massa sapien faucibus et molestie ac feugiat sed. Facilisis gravida neque convallis a cras semper. Porttitor massa id neque aliquam vestibulum. Id volutpat lacus laoreet non curabitur gravida arcu ac.</p>
-                    <p>Consectetur purus ut faucibus pulvinar elementum integer enim neque. Est placerat in egestas erat.Vitae nunc sed velit dignissim sodales ut eu sem integer. Purus semper eget duis at tellus. Neque aliquam vestibulum morbi blandit cursus.</p>
-                    <p>A cras semper auctor neque. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.</p>
-                    <p>Lectus nulla at volutpat diam ut venenatis tellus. Aliquam sem et tortor consequat id porta nibh. Donec ac odio tempor orci dapibus ultrices in iaculis. Sit amet dictum sit amet justo donec. Nibh praesent tristique magna sit.</p>
+                    <h3>Be prepared for stay safe and healthy in winter</h3>
+                    <h5><i>Written by CDC :Centers for Disease Control and Prevention</i></h5>
+                    <p>Winter storms and cold temperatures can be dangerous. Stay safe and healthly by planning ahead. Prepare your home and cars. Prepare for power outages and outdoor activies. </p>
+                    <p>Take These Steps for Your Home: </p>
+                    <p><ol>
+                        <li>Winterize your home</li>
+                        <ul>
+                            <li>Install weather stripping, insulation, and storm windows.</li>
+                            <li>Insulate water lines that run along exterior walls.</li>
+                            <li>Clean out gutters and repair roof leaks.</li>
+                        </ul>
+                        <li>Check your heating systems.</li>
+                        <ul>
+                            <li>Have your heating system serviced professionally to make sure that it is clean, working properly, and ventilated to the outside.</li>
+                            <li>Inspect and clean fireplaces and chimneys.</li>
+                            <li>Install a smoke detector. Test batteries monthly and replace them twice a year.</li>
+                            <li>Have a safe alternate heating source and alternate fuels available.</li>
+                            <li>Prevent carbon monoxide (CO) emergencies.</li><span><a class="readFullArticle" href="https://www.cdc.gov/features/winterweather/index.html" target="_blank"> continue to read full article...</a></span>
+                        </ul>
+                    </ol></p>
                 </div>
             </div>
             <!---contact information goes here-->
@@ -138,14 +152,14 @@
         <footer>
             <p>&copy;<span id="currentYear"></span> weatherguru|Lusanda Mavuma|South Africa|<a href="https://www.byui.edu/online">BYUI-Online Learning</a></p>
              
-            <p><span id="day"></span></p>                 
+            <p><span id="day"></span></p>
+            <p>Weather data courtesy of <a class="courtesy" href="https://openweathermap.org/"  target="_blank">openweather.org</a></p>                 
         </footer>
+        <script src="js/date.js"></script>
         <script src="js/updates.js"></script>
         <script src="js/displaybanner.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({google:{families: ['Roboto']}});
-        </script>
+        <script src="js/fontfamily.js"></script>
         <script src="js/windchill.js"></script>
         <script src="js/prestonweatherapi.js"></script>
         

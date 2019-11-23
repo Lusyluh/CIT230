@@ -12,7 +12,6 @@ footer {
     text-align:center;
 	align-items: center;
     padding: 1em;
-    font-size:smaller;
     
 }
 header h1{
@@ -56,8 +55,7 @@ nav{
 .navigationbar li {
     display:none;
 }
-.navigationbar a{
-    display: block;
+.navigationbar a{display: block;
     color:#22187f;
     padding:10px;
     text-align: center;
@@ -92,8 +90,8 @@ main h2{text-align:center;
     font-size: 1.5em;
     color:#22187F;
     padding:25px;
-    font-weight: bold;
-    text-shadow: 1px 2px 2px gray;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px gray;
 }
 main h3{
     color:#22187F;
@@ -124,8 +122,10 @@ main h3{
     font-weight:700;
     padding:0.8em;
     border:0.5px solid #000;
+    
+
 }
-.weatherSum th{
+.weatherSum h3{
     border-bottom:1px solid #000;
 }
 .forecast-area{
@@ -170,17 +170,12 @@ main h3{
     margin:10px auto;   
     background-color:#D3D3D3;
     margin-top:30px;
-    
+    padding:10px;
 }
 .article-holder{
     text-align:left;
-    padding-top:20px;
+    padding-top:25px;
 
-}
-.article-holder p ol li{
-    padding : 5px;
-    font-size: 12px;
-    
 }
 .articleimg{
     display:block;
@@ -189,10 +184,6 @@ main h3{
     height: auto;
     box-shadow:5px 5px 5px #000;
 
-}
-.readFullArticle {
-    color:#22187F;
-    font-style:italic;
 }
 /*css for the contact information*/
 .contactarea{
@@ -211,10 +202,6 @@ main h3{
 .presmap{
     display:none;
 }
-.courtesy{
-    color:#22187f;
-    text-decoration:none;
-}
 .social-icons{
     align-items: center;
     padding:60px;
@@ -225,115 +212,39 @@ main h3{
     line-height:25px;
     font-size:20px;
 }
-/*----------------------------------------FORM CSS---------------------------------------------------*/
-#storm_heading{
-    color:#22187F;
-    text-align: center;
-    text-shadow: 3px 1.5px #999;
-}
-form fieldset{
-    margin:2rem 0;
-    border:1px solid gray;
-    border-radius:10px;
-    padding: .5rem 2%;
-    background-color:#eee;
-    
-}
-form legend{
-    margin:0 1rem;
-    padding:0 .5rem;
-    color:#22187F;
-}
-form label.top, form div {
-    color:#ba1309;
-    display:block;
-    font-size:smaller;
-    padding-top:1rem;
-    padding-bottom:1rem;
-}
-form label.top input, form label.top select{
-    display:block;
-    padding: .5rem;
-    border-radius:4px;
-    border:1px solid gray;
-    width:100%;
-    max-width:20rem;
-}
-form label.severity{
-    display:flex;
-    color:#ba1309;
-    font-size:smaller;
-    align-items: center;
-}
-#ratingvalue{
-    margin:0 1rem;
-}
-form label.rbtn{
-    display:block;
-    padding: 0.75rem;
-    font-size:0.75rem;
-}
-
-textarea{
-    width:100%;
-    height:8em;
-    max-width:70%;
-}
-form input.subBtn{
-    background-color:#ba1309;
-    border-radius:4px;
-    border:none;
-    padding:.5rem;
-    margin-bottom:1.5%;
-    width:150px;
-}
-#thanksmsg{
-    font-size:16px;
-    color: #000;
-    text-align: center;
-    width:80%;
-    max-width:1200px;
-    margin:10rem auto;
-}
-
-/*form label.top input:required:valid {
-    border-left:4px solid green;
-}
-form label.top input:required:invalid {
-    background-color:red;
-}*/
-
-/*---css for home page---*/
-
-
-.townData section {
-    width:90%;
-    border: 1px solid #000;
-    margin: 10px auto;
-    color: #000000;
+/* CSS styling for the gallery page */
+#gallery{
     text-align:center;
+    color:#22187F;
+    text-shadow:4px #333;
+
 }
-.townData img{
+.img-gallery{
+    display: grid;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    margin:auto;
+    width:98%;
+}
+.img-gallery figure img{
     width:100%;
-    max-width:350px;
-    margin: .5rem auto;
-    box-shadow: 3px 3px 3px grey;
-    border-radius: 10px;
+    height:300px;  
 }
 
-.townData{
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    
+.img-gallery figure{
+    margin:0.5em;
 }
-.townData p {
-    padding:.2rem;
+figcaption{
+    font-size:1.2em;
+    line-height:30px;
+    padding-left:10px;
 }
-.townData h4{
-    padding: .1rem;
-    font-style: italic;
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+img {
+  filter: blur(0em);
+  transition: filter 2s;
 }
-.townData section:nth-child(1){order:3;}
-.townData section:nth-child(2){order:1;}
-.townData section:nth-child(3){order:2;}
+
