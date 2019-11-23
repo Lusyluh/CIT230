@@ -126,7 +126,13 @@ main h3{
     border:0.5px solid #000;
 }
 .weatherSum th{
+    font-size:20px;
+    text-align:center;
     border-bottom:1px solid #000;
+}
+#currently, #temp, #windSpeed, #windChill, #humidity{
+    color: #ba1309;
+    font-weight:bolder;
 }
 .forecast-area{
     display:none;

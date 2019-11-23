@@ -6,9 +6,9 @@ fetch(apiURL)
         console.log(cwObject); //cw stands for current weather
 
         document.getElementById('currently').textContent = cwObject.weather[0].description;
-        document.getElementById('temp').textContent = cwObject.main.temp_max;
+        document.getElementById('temp').textContent = cwObject.main.temp_max + "°F";
         document.getElementById('windSpeed').textContent = cwObject.wind.speed + "mph";
-        document.getElementById('humidity').textContent = cwObject.main.humidity;
+        document.getElementById('humidity').textContent = cwObject.main.humidity + "%";
 //wind chill calculations
 var temp = cwObject.main.temp;
 var ws = cwObject.wind.speed; //ws stands for wind speed
