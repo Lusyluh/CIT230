@@ -7,14 +7,14 @@ fetch(apiURL)
 
         document.getElementById('currently').textContent = cwObject.weather[0].description;
         document.getElementById('temp').textContent = cwObject.main.temp_max;
-        document.getElementById('windSpeed').textContent = cwObject.wind.speed;
+        document.getElementById('windSpeed').textContent = cwObject.wind.speed + "mph";
         document.getElementById('humidity').textContent = cwObject.main.humidity;
 //wind chill calculations
 var temp = cwObject.main.temp;
 var ws = cwObject.wind.speed; //ws stands for wind speed
 if (temp <= 50 && ws >= 3 ){
     var factor = 35.74 + 0.6215*temp - (35.75* Math.pow(ws,0.16)) + 0.4275 *temp*(Math.pow(ws,0.16));
-    document.getElementById('windChill').innerHTML = factor.toFixed(2) + "°F";
+    document.getElementById('windChill').innerHTML = factor.toFixed(0) + "°F";
 }
 else {
     document.getElementById('windChill').innerHTML = "N/A";
