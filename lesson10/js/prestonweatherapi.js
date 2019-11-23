@@ -15,14 +15,28 @@ const fivedayURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&
 
 fetch(fivedayURL)
     .then((response) => response.json())
-    .then((forecastObject) =>{
-        console.log(forecastObject);
+    .then((jsObject) =>{
+        console.log(jsObject);
 
-        var numDays = 1;
-        for( let i = 0; i < forecastObject.list.length; i++){
-        if(forecastObject.list[i].dt_txt.includes("18:00:00")){
+        var dayNum = 1;
+        for( let i = 0; i < jsObject.list.length; i++){
+        if(jsObject.list[i].dt_txt.includes("18:00:00")){
+            let uniTime = jsObject.list[i].dt;
+            let currentDate = new Date(uniTime * 1000);
             let weekday = ['Sun','Mon','Tues','Wed','Thur','Fri','Sat'];
+            let dayofWeek = weekday[currentDate.getDay()]
+            document.getElementById('day'+ dayNum).textContent = dayofWeek;
             
+
+            const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
+            const desc = jsObject.list[i].weather[0].description;
+
+            //document.getElementById('imagesrc').textContent = imagesrc;
+            document.getElementById('icon'+ dayNum).setAttribute('src',imagesrc);
+            document.getElementById('icon'+ dayNum).setAttribute('alt',desc);
+            document.getElementById('temp' + dayNum).textContent = Math.round(jsObject.list[i].main.temp_max) + "°F";
+            dayNum++;
+
 
         }
 
