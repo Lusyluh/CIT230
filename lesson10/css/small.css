@@ -180,7 +180,7 @@ main h3{
 }
 .article-holder{
     text-align:left;
-    padding-top:20px;
+    padding:20px;
 
 }
 .article-holder p ol li{
@@ -191,7 +191,7 @@ main h3{
 .articleimg{
     display:block;
     margin:auto;
-    max-width:100%;
+    max-width:90%;
     height: auto;
     box-shadow:5px 5px 5px #000;
 

@@ -33,14 +33,14 @@
     .weatherSum{
         width:250px;
     }
-    .article-area{
+    /*.article-area{
         height:350px;
-    }
+    }*/
 
     .articleimg{
         float:right;
         margin-top:50px;
-        margin-right:10px;
+        margin-right:50px;
         width:350px;
     }
     .presmap{
