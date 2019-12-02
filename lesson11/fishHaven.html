@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Fish Haven Weather Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Weather site Project:CIT230 BYUI">
+        <link rel="shortcut icon" href = "images/myfavicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href = "css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href = "css/middle.css">
+        <link rel="stylesheet" href = "css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="js/toggle.js"></script>
+        
+        
+    </head>
+    <body onload="display_banner()">
+        <div id="fridaybanner"></div>
+        <header>
+            <picture><img src ="images/kweather.png" alt = "Weather site Logo" > </picture>
+            <section class="headings">
+                <div>
+                    <h1><strong>Weatherguru</strong></h1>
+                    <p class="motto">The most accurate weather data!</p>
+                </div>
+            </section>        
+        </header>
+        <nav><!--navigation here-->
+            <ul class="navigationbar">
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a href ="home.html">Home</a></li>
+                <li><a href ="preston-10.html" >Preston</a></li>
+                <li><a href="sodaSprings.html" > Soda Springs</a></li>
+                <li><a href="fishHaven.html"class="active">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav> 
+        <main><!--weather summary and hero image--> 
+            <h2>Fish Haven</h2>
+            <div class="container1">
+                <picture>
+                    <source srcset="/images/fish-haven.jpg" media = "(max-width:500px)">
+                    <source srcset="images/fish-haven.jpg" media = "(min-width:520px) and (max-width:959px)" >
+                    <source srcset="images/fish-haven_large.jpg" media = "(min-width:960px)">
+                    <img class="heroImg" src="images/fish-haven.jpg" alt="Fish Haven">
+                </picture>
+                <table class="weatherSum">
+                    <tr>
+                        <th colspan="2">Weather Summary</th>
+                    </tr>
+                    <tr>
+                        <td>Currently :</td>
+                        <td><span id="currently"></span></td>
+                    </tr>
+                    <tr>
+                        <td>High :</td>
+                        <td> <span id="temp"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed:</td>
+                        <td><span id="windSpeed"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill :</td>
+                        <td><span id="windChill"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Humidity :</td>
+                        <td><span id="humidity"></span></td> 
+                    </tr>
+                </table>
+            </div>
+            <!--5day forecast goes here-->
+            <section class="forecast-area">
+                <h2>5 Day Forecast</h2>
+                <div class="fiveday">
+                    <div class="forecast">
+                        <span class="weekday" id="day1"></span>
+                        <img src="#" alt="" id="icon1">
+                        <span class="weather-data" id="temp1"></span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday" id="day2"></span>
+                        <img src="#" alt="" id="icon2">
+                        <span class="weather-data" id="temp2"></span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday" id="day3"></span>
+                        <img src="#" alt="" id="icon3">
+                        <span class="weather-data" id="temp3"></span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday" id="day4"></span>
+                        <img src="#" alt="" id="icon4">
+                        <span class="weather-data" id="temp4"></span>
+                    </div>
+                    <div class="forecast">
+                        <span class="weekday" id="day5"></span>
+                        <img src="#" alt="" id="icon5">
+                        <span class="weather-data" id="temp5"></span>
+                    </div>
+                </div>
+            </section>
+            <div class="eventsData"></div>
+           
+            <div class="article-area"><!--article area-->
+                <img class="articleimg" src="images/fishhaven_article.jpg" alt="Woman with Christmas gifts" >
+                <div class="article-holder">
+                    <h3>Ways to gift memories instead of objects this Christmas!</h3>
+                    <p><em>By Charlotte Gelstharp</em></p>
+                    <p>When you think about your Christmas growing up what do you remember the most? The memories that seem to last the longest for most of us are those great family Christmas traditions.</p> 
+                    <p>Christmas has always been a special time of year, but when you have little ones they add an extra special bit of sparkle to the festive season. Their excitement and happiness is contagious making it hard not to get carried away and have a Christmas present bonanza.</p>
+                    <p>But memories and traditions are the things that children will remember long after their gifts have been unwrapped. These are the things that last a lifetime and make Christmas special.</p>
+                    <p>Most people have things that they did year after year that have stayed with you as fond memories.
+                         Small, low cost but fun things such as going to choose the tree together or wearing ugly Christmas jumpers to watch your fave Christmas film, make perfect activities that can easily become fond traditions.
+                        Don't underestimate the value of time spent together enjoying each other's company, it's amazing how much children remember family traditions.</p>
+                    <span><a class="readFullArticle" href="https://www.naturalbabyshower.co.uk/blogs/b4baby/make-memories-this-christmas" target="_blank"> continue to read full article...</a></span>
+                </div>
+            </div>
+            <!---contact information goes here-->
+            <div class="contactarea">
+                        <img class="presmap" src="images/preston-map.png" alt="Preston Map">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p class="details">&#128204;30N 20E</p>
+                    <P class="details">&#128234;Preston, ID 83263</P>
+                    <P class="details">&#128222;+999-999-9999</P>
+                    <P class="details">&#128140; info@weatherguru.com</P>
+                    <!---social media content-->
+                    <a target="_blank" href="https://www.facebook.com">
+                        <img src="images/facebook.png" alt="Facebook icon" width="30" height="30"></a>
+                    <a target="_blank" href="https://www.instagram.com">
+                        <img src="images/instagram.png" alt="Instagram icon" width="30" height="30"></a>
+                    <a target="_blank" href="https://www.twitter.com">
+                        <img src="images/twitter.png" alt="Twitter icon" width="30" height="30"></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;<span id="currentYear"></span> weatherguru|Lusanda Mavuma|South Africa|<a href="https://www.byui.edu/online">BYUI-Online Learning</a></p>
+             
+            <p><span id="day"></span></p>
+            <p>Weather data courtesy of <a class="courtesy" href="https://openweathermap.org/"  target="_blank">openweather.org</a></p>                 
+        </footer>
+        <script src="js/date.js"></script>
+        <script src="js/updates.js"></script>
+        <script src="js/displaybanner.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontfamily.js"></script>
+        <script src="js/fishHavenWeather.js"></script>
+        
+    </body>
+</html>

@@ -6,7 +6,7 @@ fetch(apiURL)
         console.log(cwObject); //cw stands for current weather
 
         document.getElementById('currently').textContent = cwObject.weather[0].description;
-        document.getElementById('temp').textContent = cwObject.main.temp_max + "°F";
+        document.getElementById('temp').textContent = cwObject.main.temp.toFixed(0) + "°F";
         document.getElementById('windSpeed').textContent = cwObject.wind.speed + "mph";
         document.getElementById('humidity').textContent = cwObject.main.humidity + "%";
 //wind chill calculations
@@ -50,4 +50,39 @@ fetch(fivedayURL)
         }
 
         }
+    });
+    const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+    fetch(requestURL)
+    .then(function (response){
+        return response.json();
     })
+    .then(function (jsonObject){
+        console.table(jsonObject);
+
+        const towns = jsonObject['towns'];
+        
+        for (let i = 0; i < towns.length;i++){
+            if (towns[i].name == "Fish Haven"){
+                let events = document.createElement('section'); 
+                let h3 = document.createElement('h3')
+                let event1 = document.createElement('p')
+                let event2 = document.createElement('p')
+                let event3 = document.createElement('p')
+            
+
+                h3.textContent = 'Exciting Events in ' + towns[i].name + '!';
+                event1.textContent = towns[i].events[0];
+                event2.textContent = towns[i].events[1];
+                event3.textContent = towns[i].events[2];
+
+                events.appendChild(h3);
+                events.appendChild(event1);
+                events.appendChild(event2);
+                events.appendChild(event3);
+                
+            
+                document.querySelector('div.eventsData').appendChild(events);
+
+            }
+        }
+    });

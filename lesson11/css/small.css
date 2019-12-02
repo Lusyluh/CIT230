@@ -175,11 +175,11 @@ main h3{
     border:1px solid #bbb;
     margin:10px auto;   
     background-color:#D3D3D3;
-    margin-top:30px;
+    margin-top:10px;
     
 }
 .article-holder{
-    text-align:left;
+    
     padding:20px;
 
 }
@@ -343,3 +343,12 @@ form label.top input:required:invalid {
 .townData section:nth-child(1){order:3;}
 .townData section:nth-child(2){order:1;}
 .townData section:nth-child(3){order:2;}
+
+
+.eventsData{
+    border: 1px solid #bbb;
+    margin-top:40px;
+    text-align: center;
+    padding: .5rem;
+    background-color: #D3D3D3;
+}
