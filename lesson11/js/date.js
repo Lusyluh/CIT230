@@ -1,8 +1,8 @@
 
 var updates = new Date();
-document.getElementById("currentYear").innerHTML = updates.getFullYear();
+document.getElementById("currentYear").textContent = updates.getFullYear();
 
-document.getElementById("dateModi").innerHTML= document.lastModified;
+document.getElementById("dateModi").itextContent= document.lastModified;
 
 
 
