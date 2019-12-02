@@ -23,8 +23,6 @@
     .townData{
         display: flex;
         flex-direction:row;
-        
-        
     }
     .townData section{
         display:flex;
@@ -44,5 +42,12 @@
     .townData section:nth-child(1){
         flex-direction:column;
 
+    }
+    /*---gallery---*/
+    .img-gallery{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    .img-gallery figure:hover{
+        box-shadow: 0 0 50px #333;
     }
 }

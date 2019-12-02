@@ -104,5 +104,9 @@
         flex-direction:row-reverse;
 
     }
+    /* css for gallery tab*/
+    .img-gallery{
+        grid-template-columns: 1fr 1fr; 
+    }
 
 }
