@@ -345,6 +345,12 @@ form label.top input:required:invalid {
     padding: .1rem;
     font-style: italic;
 }
+.weatherStory{
+    text-align:center;
+    padding:.5rem;
+    font-weight:bold;
+    
+}
 .townData section:nth-child(1){order:3;}
 .townData section:nth-child(2){order:1;}
 .townData section:nth-child(3){order:2;}
