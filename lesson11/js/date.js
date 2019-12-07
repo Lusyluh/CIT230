@@ -1,9 +1,11 @@
 
-var updates = new Date();
+let updates = new Date();
 
 document.getElementById("currentYear").textContent = updates.getFullYear();
 
-document.getElementById("dateModi").textContent= document.lastModified;
+let modify = document.lastModified;
+
+document.getElementById("dateModi").textContent = modify;
 
 
 
