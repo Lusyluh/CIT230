@@ -95,24 +95,53 @@ main p{
     padding:0.4rem;
 }
 
-main h2{text-align:center;
-    font-size: 2rem;
-    color:#Oa1c2f;
-    padding:25px;
-    font-weight: bolder;
-    text-shadow: 1px 2px 2px gray;
-}
 main h3{
-    color:#Oa1c2f;
+    color:#0a1c2f;
     padding:.5rem;
 }
 
-.container1{
+
+/*container holding an image and text*/
+.container{
     position:relative;
     margin:10px auto;
-    max-width:100%;
+    max-width:800px;
+    height:auto;
+    text-align:center;
+    color:#ffffff;
+}
+.homeImg{
+    width:100%;
     height:auto;
 }
+.heroText{
+    position:absolute;
+    top:50%;
+    font-size:1.2rem;
+    color:#ffffff;
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    padding:20px;
+}
+.heroText button{
+    display:inline-block;
+    background-color:#1b498a;
+    text-align:center;
+    padding:1rem;
+    color:#ffffff;
+    border:none;
+    border-radius: 0.4rem;
+}
+.heroText button:hover{
+    background-color:#dea325;
+    
+}
+
+
+
+
+
+
 .heroImg{
     display:block;
     overflow:hidden;
