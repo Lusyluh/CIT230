@@ -105,23 +105,26 @@ main h3{
 .container{
     position:relative;
     margin:10px auto;
-    max-width:800px;
+    max-width:960px;
     height:auto;
     text-align:center;
     color:#ffffff;
 }
-.homeImg{
+.heroImg{
     width:100%;
-    height:auto;
+    height:30%;
 }
 .heroText{
-    position:absolute;
+    position:fixed;
     top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
     font-size:1.2rem;
     color:#ffffff;
     background:rgba(0,0,0,0.5);
-    width:100%;
+    width:71%;
     padding:20px;
+    
 }
 .heroText button{
     display:inline-block;
@@ -131,10 +134,11 @@ main h3{
     color:#ffffff;
     border:none;
     border-radius: 0.4rem;
+    margin-top:10px;
 }
 .heroText button:hover{
     background-color:#dea325;
-    
+
 }
 
 
