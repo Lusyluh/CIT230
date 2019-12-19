@@ -29,7 +29,7 @@
                 <li><a href ="home.html" class="active">Home</a></li>
                 <li><a href ="temples.html" >Temples</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Reservations</a></li>
+                <li><a href="bookings.html">Reservations</a></li>
                 <li><a href="#" >Contact</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
@@ -48,8 +48,19 @@
                             <option value="rexburg">Rexburg Idaho Temple</option>
                         </select>
                     </label>
-                    <label class="top">Arrival<input type="date" data-polyfill="all" name="arrivaldate"></label>
-                    <label class="top">Departure<input type="date" data-polyfill="all" name="departuredate"></label>
+                    <label class="top">Arrival:<input type="date" data-polyfill="all" name="arrivaldate"></label>
+                    <label class="top">Departure:<input type="date" data-polyfill="all" name="departuredate"></label>
+                    <label class="top">Room:
+                            <select name="room">
+                                <option value="" disabled="disabled" selected="selected">Select</option>
+                                <option value="deluxe">Deluxe Single</option>
+                                <option value="king">Deluxe King</option>
+                                <option value="twin">Deluxe Twin</option>
+                                <option value="fourSleeper">Deluxe Four Sleeper</option>
+                                <option value="family">Deluxe Family</option>
+                                <option value="executive">Deluxe Executive/ Family suite</option>
+                            </select>
+                        </label>
                     <label class="side">Adults(+18)
                         <select name="adultnumber">
                             <option value="1">1</option>
@@ -76,17 +87,6 @@
                             <option value="2">2</option>                            
                         </select>
                     </label>
-                    <label class="top">Room:
-                            <select name="room">
-                                <option value="" disabled="disabled" selected="selected">Select</option>
-                                <option value="deluxe">Deluxe Single</option>
-                                <option value="king">Deluxe King</option>
-                                <option value="twin">Deluxe Twin</option>
-                                <option value="fourSleeper">Deluxe Four Sleeper</option>
-                                <option value="family">Deluxe Family</option>
-                                <option value="executive">Deluxe Executive/ Family suite</option>
-                            </select>
-                        </label>
                 </fieldset>
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -97,7 +97,10 @@
                 </fieldset>
                 <fieldset>
                     <legend>Comments</legend>
+                    <label class="txtarea"><textarea name="comments" rows="10" cols="30" placeholder="comment here...|"></textarea></label>
                 </fieldset>
+                <!--Submit button-->
+                <input type="submit" value="Submit" class="submitBtn">
             </form>
            
           
@@ -111,7 +114,7 @@
             <div>
                 <a target="_blank" href="https://www.facebook.com">
                     <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
-                <a target="_blank" href="https://www.instagram.com">webfont                                                                                                                                     
+                <a target="_blank" href="https://www.instagram.com">                                                                                                                                  
                     <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
                 <a target="_blank" href="https://www.twitter.com">
                     <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
