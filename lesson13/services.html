@@ -8,8 +8,8 @@
         <!--<link rel="shortcut icon" href = "images/myfavicon.ico" type="image/x-icon">-->
         <link rel="stylesheet" href = "css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
-        <!--<link rel="stylesheet" href = "css/middle.css">
-        <link rel="stylesheet" href = "css/large.css">-->
+        <link rel="stylesheet" href = "css/middle.css">
+        <!--<link rel="stylesheet" href = "css/large.css">-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         
         
@@ -28,17 +28,25 @@
         <nav><!--navigation here-->
             <ul class="navigationbar">
                 <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href ="home.html" class="active">Home</a></li>
+                <li><a href ="home.html" >Home</a></li>
                 <li><a href ="temples.html" >Temples</a></li>
-                <li><a href="#">Services</a></li>
+                <li class="dropdown"><a href="services.html" class="dropbtn" class="active">Services</a>
+                    <div class="dropdown_content">
+                        <a href="reception.html">Reception</a>
+                        <a href="">Temple Missionary</a>
+                    </div>
+                </li>
                 <li><a href="bookings.html">Reservations</a></li>
                 <li><a href="#" >Contact</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
         </nav> 
         <main><!--services available-->
-            <div>
-                <h2>Amenties and Services</h2>
+            <div class="amenities_img">
+                <img src="images/exercise_room.jpg" alt="Amenities">
+            </div>
+            <h2 class="amenitiesHeading">Amenities and Services</h2>
+            <div class="specialServices">
                 <h3>Specialized Services</h3>
                 <ul>
                     <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
@@ -49,7 +57,7 @@
                     <li>A family search center that supports family search and ordinance work</li>  
                 </ul>
             </div>
-            <div>
+            <div class="freeAmenities">
                 <h3>Free Amenities</h3>
                 <ul>
                     <li>Breakfast</li>
@@ -71,7 +79,7 @@
             <div>
                 <a target="_blank" href="https://www.facebook.com">
                     <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
-                <a target="_blank" href="https://www.instagram.com">webfont                                                                                                                                     
+                <a target="_blank" href="https://www.instagram.com">                                                                                                                                   
                     <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
                 <a target="_blank" href="https://www.twitter.com">
                     <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
