@@ -1,0 +1,42 @@
+{
+"temples":[{
+	"name": "Adelaide Australia Temple",
+	"Announced": "17 March 1999",
+	"Groundbreaking": "29 May 1999",
+	"Dedicated": "15 June 2000",
+	"address": "53-59 Lower Portrush Rd, Marden SA 5070, Australia",
+	"tel":"(61)8-8363-8000",
+	"services":["No clothing Rental","No cafeteria","No patron housing","No distribution center nearby"]
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/adelaide-australia/adelaide-australia-temple-lds-1670450-gallery.jpg"
+},
+{
+	"name": "Accra Ghana Temple",
+	"Announced": "16 February 1998",
+	"Groundbreaking": "16 November 2001",
+	"Dedicated": "11 January 2004",
+	"address": "Accra Ghana Temple Complex 57 Independence Avenue,North Ridge, P.M.B CT 209, Cantonments",
+	"tel":"(233) 302-650-123",
+	"services":["No clothing Rent","No cafeteria","Patron housing available","Distribution center nearby"]
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/accra-ghana/accra-ghana-temple-lds-249027-gallery.jpg"
+},
+{
+	"name": "Aba Nigeria Temple",
+	"Announced": "2 April 2000",
+	"Groundbreaking": "23  February 2002",
+	"Dedicated": "7 August 2005",
+	"address": "72-80 Okpu-Umuobo Rd,Aba, Abia State, Nigeria",
+	"tel":"(234)80-3903-4804",
+	"services":["No clothing Rental","No cafeteria","Patron housing available","Distribution cener nearby"]
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/aba-nigeria/aba-nigeria-temple-lds-273999-gallery.jpg"
+},
+{
+	"name": "Rexburg Idaho Temple",
+	"Announced": "12 December 2003",
+	"Groundbreaking": "30 July 2005",
+	"Dedicated": "10 February 2008",
+	"address": "750 S 2nd E, Rexburg ID 83440-5404,United States",
+	"tel":"(1) 208-656-0880",
+	"services":["Clothing Rental available","No cafeteria","No patron housing available","Distribution center nearby"]
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/rexburg-idaho/rexburg-temple-lds-453574-gallery.jpg"
+}
+]}
