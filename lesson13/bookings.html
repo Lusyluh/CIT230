@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Temple Inn and Suites Bookings</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Temple Inn Project:CIT230 BYUI">
+        <!--<link rel="shortcut icon" href = "images/myfavicon.ico" type="image/x-icon">-->
+        <link rel="stylesheet" href = "css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <!--<link rel="stylesheet" href = "css/middle.css">
+        <link rel="stylesheet" href = "css/large.css">-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <picture><img src ="images/logo_hotel3.png" alt = "Temple Inn Logo" > </picture>
+            <section class="headings">
+                <div>
+                    <h1>Temple Inn and Suites</h1>
+                    <p class="motto">Feel at home</p>
+                </div>
+            </section>        
+        </header>
+        <nav><!--navigation here-->
+            <ul class="navigationbar">
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a href ="home.html" class="active">Home</a></li>
+                <li><a href ="temples.html" >Temples</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#" >Contact</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav> 
+        <main><!--Reservation/Booking form here-->
+            <h1 id="storm_heading">RESERVE YOUR SPACE </h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Travelling Dates</legend>
+                    <label class="top">Destination
+                        <select name="temple">
+                            <option value="" disabled="disabled" selected="selected">Select Temple</option>
+                            <option value="accra">Accra Ghana Temple</option>
+                            <option value="adelaide">Adelaide Temple</option>
+                            <option value="aba">Aba Nigeria Temple</option>
+                            <option value="rexburg">Rexburg Idaho Temple</option>
+                        </select>
+                    </label>
+                    <label class="top">Arrival<input type="date" data-polyfill="all" name="arrivaldate"></label>
+                    <label class="top">Departure<input type="date" data-polyfill="all" name="departuredate"></label>
+                    <label class="side">Adults(+18)
+                        <select name="adultnumber">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </label>
+                    <label class="side">Children
+                        <select name="children">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </label>
+                    <label class="side">Infants
+                        <select name="children">
+                            <option value="1">1</option>
+                            <option value="2">2</option>                            
+                        </select>
+                    </label>
+                    <label class="top">Room:
+                            <select name="room">
+                                <option value="" disabled="disabled" selected="selected">Select</option>
+                                <option value="deluxe">Deluxe Single</option>
+                                <option value="king">Deluxe King</option>
+                                <option value="twin">Deluxe Twin</option>
+                                <option value="fourSleeper">Deluxe Four Sleeper</option>
+                                <option value="family">Deluxe Family</option>
+                                <option value="executive">Deluxe Executive/ Family suite</option>
+                            </select>
+                        </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name*<input type="text" name="fname" required pattern="[A-Za-z ]{5,99}"></label>
+                    <label class="top">e-mail*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label class="top">Phone Number<input type="tel" name="phone" placeholder="(1)23-456-7891" required></label>
+                    <label class="top">State<input type="text" name="homestate" ></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Comments</legend>
+                </fieldset>
+            </form>
+           
+          
+            
+        </main>
+        <footer>
+            <p>&copy;<span id="currentYear"></span>Temple Inn and Suites|Lusanda Mavuma|<a href="https://www.templesuites.org"></a></p>
+             
+            <p><span id="day"></span></p> 
+            <!---social media content-->
+            <div>
+                <a target="_blank" href="https://www.facebook.com">
+                    <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
+                <a target="_blank" href="https://www.instagram.com">webfont                                                                                                                                     
+                    <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
+                <a target="_blank" href="https://www.twitter.com">
+                    <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
+            </div>
+                           
+        </footer>
+        <script src="js/date.js"></script>
+        <script src="js/updates.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontfamily.js"></script>   
+    </body>
+</html>
