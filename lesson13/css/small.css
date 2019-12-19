@@ -115,8 +115,8 @@ main h3{
     height:30%;
 }
 .heroText{
-    position:fixed;
-    top:50%;
+    position:absolute;
+    top:60%;
     left:50%;
     transform:translate(-50%,-50%);
     font-size:1.2rem;
@@ -124,6 +124,7 @@ main h3{
     background:rgba(0,0,0,0.5);
     width:71%;
     padding:20px;
+    z-index: 2;
     
 }
 .heroText button{
@@ -141,77 +142,24 @@ main h3{
 
 }
 
+.temple_area{
+    border:1px solid #bbb;
+}
+.summary_info{
+    border:1px solid red;
+}
+.summary_img{
+    float:right;
+}
+.summary_info table{
+    width:100px;
+}
 
 
 
 
 
-.heroImg{
-    display:block;
-    overflow:hidden;
-    margin: 0;
-    width:100%;
-    height:auto;
-}
-.weatherSum{
-    position:absolute;
-    top: 15px;
-    left:10px;
-    background:radial-gradient(#eee,#1e90ff);
-    opacity:0.8;
-    text-align:left;
-    font-size:0.9em;
-    box-shadow:0 0 30px #000;
-    font-weight:700;
-    padding:0.8em;
-    border:0.5px solid #000;
-}
-.weatherSum th{
-    font-size:20px;
-    text-align:center;
-    border-bottom:1px solid #000;
-}
-#currently, #temp, #windSpeed, #windChill, #humidity{
-    color: #ba1309;
-    font-weight:bolder;
-}
-.forecast-area{
-    display:none;
-}
-.fiveday{
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin: auto;
-    box-shadow: 5px 5px 15px gray;
-    
-}
-.forecast-area h2{
-    display:block;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-.forecast{
-    flex: 1 1 100%;
-    text-align: center;
-    font-size: 1em;
-    
-    border-right:1px solid #000;
-}
-.weekday{
-    display: block;
-    background-color:#22187F;
-    color:white;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 1.5em;
-}
-.weather-data{
-    display:block;
-    font-weight: 600;
-}
-/*css for the article and the image*/
+/*css for the article and the image
 .article-area{
     border:1px solid #bbb;
     margin:10px auto;   
@@ -243,7 +191,7 @@ main h3{
     font-style:italic;
 }
 /*css for the contact information*/
-.contactarea{
+/*.contactarea{
     width:100%;
     height:auto;
     margin:10px auto;
@@ -274,7 +222,7 @@ main h3{
     font-size:20px;
 }
 /*----------------------------------------FORM CSS---------------------------------------------------*/
-#storm_heading{
+/*#storm_heading{
     color:#22187F;
     text-align: center;
     text-shadow: 3px 1.5px #999;
