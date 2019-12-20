@@ -300,15 +300,22 @@ img {
   transition: filter 2s;
 }
 /*css for the contact us page*/
-.contactArea{
-    border:1px dashed red;
+.contactArea{  
     border-radius:5px;
     background-color:#f2f2f2;
     padding:.2rem;
 }
 .column{
     width:100%;
-    margin-top:0;
+    border:1px dashed red;
+    margin:2rem auto;
+   
+}
+.contactDetails h2{
+    text-align:center;
+    color:#0a1c2f;
+    font-size:3rem;
+
 }
 
 

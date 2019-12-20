@@ -33,17 +33,9 @@
         display:none;
     }
     /*form and image in contact us page must float next to each other*/
-    .column{
-        float:left;
-        width:50%;
-        margin-top:.8rem;
-        padding:1.5rem;
-    }
-    /*clear floats after the columns*/
-    .row:after{
-        content: "";
-        display:table;
-        clear:both;
+   
+    iframe{
+        width:100%;
     }
 
     /*css styling for home page*/
