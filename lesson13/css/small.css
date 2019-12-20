@@ -115,7 +115,7 @@ main {
     margin:0 auto;
 }
 main p{
-    padding:0.4rem;
+    padding:0.2rem;
 }
 
 main h3{
@@ -124,7 +124,7 @@ main h3{
 }
 
 
-/*container holding an image and text*/
+/*container holding an image and text on home page*/
 .container{
     position:relative;
     margin:10px auto;
@@ -247,10 +247,30 @@ form input.submitBtn{
     padding:.8rem;
 }
 
+/*css for the reception page*/
+.reception h2{
+    text-align:center;
+    color:#0a1c2f;
+    padding:1.5rem;
+    font-size:2rem;
+    font-style:italic;
+}
+.reception img{
+    display:block;
+    overflow:hidden;
+    margin:1rem 0;
+    width:100%;
+    height:auto
+}
 
-
-
-
+.recep_text{
+    width:60%;
+    margin-left:.8rem;
+}
+.recep_text h4{
+    padding:0.3rem;
+    font-style:italic;
+}
 
 
 
