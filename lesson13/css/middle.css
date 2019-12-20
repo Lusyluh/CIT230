@@ -1,7 +1,7 @@
 @media only screen and (min-width:32.5em){
 
     main, footer{
-        max-width:1200PX;
+        /*max-width:1200PX;*/
         margin:0 auto;
     }
    
@@ -27,9 +27,23 @@
         flex:1 1 100%;    
     }
     
-    /* CSS styling for the gallery page*/
-    .img-gallery{
-        grid-template-columns: 1fr 1fr 1fr;
+    /* CSS styling for the full time temple missionary page*/
+   
+    .suites img{
+        display:none;
+    }
+    /*form and image in contact us page must float next to each other*/
+    .column{
+        float:left;
+        width:50%;
+        margin-top:.8rem;
+        padding:1.5rem;
+    }
+    /*clear floats after the columns*/
+    .row:after{
+        content: "";
+        display:table;
+        clear:both;
     }
 
     /*css styling for home page*/

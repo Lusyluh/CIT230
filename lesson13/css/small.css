@@ -112,7 +112,7 @@ li.dropdown{
 main {
     display:block;
     max-width:960px;
-    margin:0 auto;
+    margin:auto;
 }
 main p{
     padding:0.2rem;
@@ -215,11 +215,18 @@ form label.top input, form label.top select{
     border:1px solid gray;
     width:100%;
     max-width:20rem;
+    margin-top:0.5rem;
 }
-textarea{
+form textarea{
     width:100%;
+    display:block;
     height:8em;
     max-width:70%;
+    padding:12px;
+    border-radius:4px;
+    margin-top:0.5rem;
+    margin-bottom:1.2rem;
+
 }
 form input.submitBtn{
     background-color:#dea325;
@@ -229,7 +236,7 @@ form input.submitBtn{
     margin-bottom:1rem;
     width:150px;
     color:whitesmoke;
-    font-weight:500;
+    font-weight:bold;
 }
 
 /*css for the services main page*/
@@ -271,6 +278,39 @@ form input.submitBtn{
     padding:0.3rem;
     font-style:italic;
 }
+/*css for the full time temple missionaries*/
+.suites{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin:.5rem auto;
+    width:90%;
+    border:1px solid red;
+}
+.suites img{
+    width:100%;
+    max-width:400px;
+    margin:.5rem auto;
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+img {
+  filter: blur(0em);
+  transition: filter 2s;
+}
+/*css for the contact us page*/
+.contactArea{
+    border:1px dashed red;
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:.2rem;
+}
+.column{
+    width:100%;
+    margin-top:0;
+}
+
 
 
 
@@ -465,4 +505,10 @@ img[data-src] {
 img {
   filter: blur(0em);
   transition: filter 2s;
+}
+
+.mySlides{
+    width:100%;
+    margin:0.5rem auto;
+    height:400px;
 }

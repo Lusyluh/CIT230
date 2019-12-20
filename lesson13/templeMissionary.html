@@ -26,65 +26,48 @@
         <nav><!--navigation here-->
             <ul class="navigationbar">
                 <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href ="home.html" class="active">Home</a></li>
+                <li><a href ="home.html">Home</a></li>
                 <li><a href ="temples.html" >Temples</a></li>
-                <li><a href="#">Services</a></li>
+                <li class="dropdown"><a href="services.html" class="dropbtn">Services</a>
+                    <div class="dropdown_content">
+                        <a href="reception.html">Reception</a>
+                        <a href="templeMissionary.html" class="active">Temple Missionary</a>
+                    </div>
+                </li>
                 <li><a href="bookings.html">Reservations</a></li>
                 <li><a href="#" >Contact</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
         </nav> 
-        <main><!--home page-->
-            <div class="container">
-                <img src="images/hotel.jpg" alt="Bedroom Picture" class="heroImg">
-                <img src="images/bedroom.jpg" alt="Bedroom Image" class="heroImg">
-                <img src="images/staircase.jpg" alt="Bedroom Image" class="heroImg">
-                <div class="heroText">
-                    <h2>Home away from home</h2>
-                    <p>Get it from R500pp/night</p>
-                    <button href="bookings.html">Check Availability</button>
-                </div>
-                
+        <main><!--full time missionary suites-->
+            <div class="suites">
+                <h3>Standard Deluxe Suite</h3>
+                <img src="images/placeholder.jpg" data-src="images/bedroom-decoration-hotels-interior.jpg" alt="Standard Deluxe Suite">
+                <p>Occupancy: 2</p>
+                <p>1 bedroom, 1 separate bathroom</p>
+                <p>Open plan lounge and kitchen</p>
+                <p><em>230 square meters</em></p>
             </div>
-            <!---Summary of a chosen temple-->
-            <div class="temple_area">
-                    <!--<h3>Johannesburg South Africa Temple</h3>-->
-                <img class="summary_img" src="images/johannesburg-south-africa-temple-lds.jpg" alt="Johannesburg Temple">
-                <div class="summary_info">
-                    <table>
-                        <th>Johannesburg South  Africa Temple</th>
-                        <tr>
-                            <td>Announced:</td>
-                            <td>1 April 1981</td>
-                        </tr>
-                        <tr>
-                            <td>Groundbreaking:</td>
-                            <td>27 November 1982</td>
-                        </tr>
-                        <tr>
-                            <td>Dedicated:</td>
-                            <td>24 August 1985</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="4">Services:</td>
-                            <td>Clothing Rental</td>
-                            <td>Patron housing available</td>
-                        </tr>
-                        <tr>
-                            <td>Tel:</td>
-                            <td>(27)11-645-1540</td>
-                        </tr>
-                        <tr>
-                            <td>Address:</td>
-                            <td>7 Jubilee Road,Parktown,Johannesburg,2193,South Africa</td>
-
-                        </tr>
-
-                    </table>
-                </div>
+            <div class="suites">
+                <h3>King Deluxe Suite</h3>
+                <img src="images/placeholder.jpg" data-src="images/apartment-bed-bedroom.jpg" alt="King Deluxe Suite">
+                <p>Occupancy: 2</p>
+                <p>Ensuite bedroom </p>
+                <p>1 King Sized Bed</p>
+                <p>Open plan kitchen</p>
+                <p>Balcony</p>
+                <p><em>300 square meters</em></p>
             </div>
-          
-            
+            <div class="suites">
+                <h3>Executive Suite</h3>
+                <img src="images/placeholder.jpg" data-src="images/architecture-carpet-chandeliers.jpg" alt="Executive Deluxe Suite">
+                <p>Occupancy: 4</p>
+                <p>2 bredrooms</p>
+                <p>2 bathrooms</p>
+                <p>Open plan lounge/kitchen</p>
+                <p>Spacious Balcony</p>
+                <p><em>500 square meters</em></p>
+            </div>
         </main>
         <footer>
             <p>&copy;<span id="currentYear"></span>Temple Inn and Suites|Lusanda Mavuma|<a href="https://www.templesuites.org"></a></p>

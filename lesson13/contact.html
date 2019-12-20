@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Temple Inn and Suites</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Temple Inn Project:CIT230 BYUI">
+        <!--<link rel="shortcut icon" href = "images/myfavicon.ico" type="image/x-icon">-->
+        <link rel="stylesheet" href = "css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href = "css/middle.css">
+        <!--<link rel="stylesheet" href = "css/large.css">-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!--<header>
+            <picture><img src ="images/logo_hotel3.png" alt = "Temple Inn Logo" > </picture>
+            <section class="headings">
+                <div>
+                    <h1>Temple Inn and Suites</h1>
+                    <p class="motto">Feel at home</p>
+                </div>
+            </section>        
+        </header>-->
+        <nav><!--navigation here-->
+            <ul class="navigationbar">
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a href ="home.html">Home</a></li>
+                <li><a href ="temples.html" >Temples</a></li>
+                <li class="dropdown"><a href="services.html" class="dropbtn">Services</a>
+                    <div class="dropdown_content">
+                        <a href="reception.html">Reception</a>
+                        <a href="templeMissionary.html" class="active">Temple Missionary</a>
+                    </div>
+                </li>
+                <li><a href="bookings.html">Reservations</a></li>
+                <li><a href="#" >Contact</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav> 
+        <!--SLIDE SHOW-->
+        <section>
+            <img  class="mySlides" src="images/bedroom-decoration-hotels-interior.jpg">
+            <img class="mySlides" src="images/apartment-bed-bedroom.jpg">
+            <img class="mySlides" src="images/architecture-carpet-chandeliers.jpg">
+        </section>
+        <main><!--contact us form-->
+            <div class="contactArea">
+              <div>
+                  <h2>Contact Us</h2>
+              </div>
+              <div class="row">
+                  <div class="column"><!--Map Image/embedded map    -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284854!2d-77.09772048528721!3d38.98325594948481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sza!4v1576861684800!5m2!1sen!2sza" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                  </div>
+                  <div class="column"><!--form division-->
+                    <form>
+                        <label class="top">First Name*<input type="text" name="fname" required pattern="[A-Za-z ]{5,99}"></label>
+                        <label class="top">Last Name*<input type="text" name="lname" required pattern="[A-Za-z ]{5,99}"></label>
+                        <label class="top">e-mail*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                        <label class="top">City
+                                <select name="country">
+                                    <option value="" disabled="disabled" selected="selected"></option>
+                                    <option value="nigeria">Abba Nigeria</option>
+                                    <option value="ghana">Accra Ghana</option>
+                                    <option value="australia">Adelaide Australia</option>
+                                    <option value="rexburg">Rexburg Idaho</option>
+                                </select>
+                        </label>
+                        <label class="message">Message:<textarea name="message" placeholder="Write here"></textarea></label>
+                        <input type="submit" value="Submit" class="submitBtn">
+                    </form>
+                  </div>
+              </div>  
+            </div>
+        </main>
+        <footer>
+            <p>&copy;<span id="currentYear"></span>Temple Inn and Suites|Lusanda Mavuma|<a href="https://www.templesuites.org"></a></p>
+             
+            <p><span id="day"></span></p> 
+            <!---social media content-->
+            <div>
+                <a target="_blank" href="https://www.facebook.com">
+                    <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
+                <a target="_blank" href="https://www.instagram.com">                                                                                                                                     
+                    <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
+                <a target="_blank" href="https://www.twitter.com">
+                    <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
+            </div>
+                           
+        </footer>
+        <script src="js/slideshow.js"></script>
+        <script src="js/date.js"></script>
+        <script src="js/updates.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontfamily.js"></script>   
+    </body>
+</html>
