@@ -8,7 +8,8 @@
 	"tel":"(61)8-8363-8000",
 	"services":["No clothing Rental","No cafeteria","No patron housing","No distribution center nearby"],
 	"imageurl":"https://media.ldscdn.org/images/media-library/temples/adelaide-australia/adelaide-australia-temple-lds-1670450-gallery.jpg"
-	"closure":
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 },
 {
 	"name": "Accra Ghana Temple",
@@ -19,6 +20,8 @@
 	"tel":"(233) 302-650-123",
 	"services":["No clothing Rent","No cafeteria","Patron housing available","Distribution center nearby"],
 	"imageurl":"https://media.ldscdn.org/images/media-library/temples/accra-ghana/accra-ghana-temple-lds-249027-gallery.jpg"
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 },
 {
 	"name": "Aba Nigeria Temple",
@@ -29,6 +32,8 @@
 	"tel":"(234)80-3903-4804",
 	"services":["No clothing Rental","No cafeteria","Patron housing available","Distribution cener nearby"],
 	"imageurl":"https://media.ldscdn.org/images/media-library/temples/aba-nigeria/aba-nigeria-temple-lds-273999-gallery.jpg"
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 },
 {
 	"name": "Rexburg Idaho Temple",
@@ -39,5 +44,7 @@
 	"tel":"(1) 208-656-0880",
 	"services":["Clothing Rental available","No cafeteria","No patron housing available","Distribution center nearby"],
 	"imageurl":"https://media.ldscdn.org/images/media-library/temples/rexburg-idaho/rexburg-temple-lds-453574-gallery.jpg"
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 }
 ]}
