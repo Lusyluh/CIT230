@@ -30,7 +30,9 @@ header{
     justify-content:center;
 }
 /* styling the logo image*/
-header img{width:150px;
+header img{
+    width:100%;
+    max-width:100px;
     height:auto;
 }
 .headings{display:flex;
@@ -111,7 +113,7 @@ li.dropdown{
 /*Main css styling here*/
 main {
     display:block;
-    max-width:960px;
+    width:100%;
     margin:auto;
 }
 main p{
@@ -128,17 +130,17 @@ main h3{
 .container{
     position:relative;
     margin:10px auto;
-    max-width:960px;
+    max-width:100%;
     height:auto;
     text-align:center;
     color:#ffffff;
 }
 .heroImg{
-    width:100%;
-    height:30%;
+    max-width:100%;
+    height:auto;
 }
 .heroText{
-    position:fixed;
+    position:absolute;
     top:60%;
     left:50%;
     transform:translate(-50%,-50%);
@@ -155,36 +157,64 @@ main h3{
     display:inline-block;
     background-color:#1b498a;
     text-align:center;
-    padding:1rem;
-    color:#ffffff;
+    padding:1rem; 
     border:none;
     border-radius: 0.4rem;
     margin-top:10px;
+}
+.heroText button a{
+    color:#ffffff;
+    text-decoration: none;
 }
 .heroText button:hover{
     background-color:#dea325;
 
 }
-
 .temple_area{
     border:1px solid #bbb;
-}
-.summary_info{
-    border:1px solid red;
-}
-.summary_img{
-    float:right;
-}
-.summary_info table{
-    width:100px;
-}
-.temples{
-    border:1px solid red;
+    max-width:100%;
     height:auto;
+    display:grid;
 }
+
+.temple_area img{
+    margin:1rem;
+    width:100%;
+    max-width:450px;
+}
+.temple_area table{
+    width:100%;
+    max-width:400px;
+    text-align:left;
+    margin:2.5rem; 
+}
+.temple_area table th{
+    font-size:1.5rem;
+    color:#0a1c2f;
+    text-align:center;
+}
+.contactInfo{
+    display:grid;
+    background-color:#1b498a;
+    align-items: center;
+    text-align:center;
+}
+.footlogo{
+    width:100%;
+    max-width:80px;
+}
+.contactInfo img{
+    margin-top:1rem;
+    
+}
+.mediaIcons{
+    margin:1rem;
+}
+
 /*css for the temple page*/
 .temples{
     height:400px;
+    border:1px solid red;
 }
 
 /*css for the reservation page form*/
