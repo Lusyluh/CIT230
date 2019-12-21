@@ -7,8 +7,9 @@
 	"address": "53-59 Lower Portrush Rd, Marden SA 5070, Australia",
 	"tel":"(61)8-8363-8000",
 	"services":["No clothing Rental","No cafeteria","No patron housing","No distribution center nearby"],
-	"imageurl":"https://media.ldscdn.org/images/media-library/temples/adelaide-australia/adelaide-australia-temple-lds-1670450-gallery.jpg"
-	"closure":
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/adelaide-australia/adelaide-australia-temple-lds-1670450-gallery.jpg",
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 },
 {
 	"name": "Accra Ghana Temple",
@@ -18,7 +19,9 @@
 	"address": "Accra Ghana Temple Complex 57 Independence Avenue,North Ridge, P.M.B CT 209, Cantonments",
 	"tel":"(233) 302-650-123",
 	"services":["No clothing Rent","No cafeteria","Patron housing available","Distribution center nearby"],
-	"imageurl":"https://media.ldscdn.org/images/media-library/temples/accra-ghana/accra-ghana-temple-lds-249027-gallery.jpg"
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/accra-ghana/accra-ghana-temple-lds-249027-gallery.jpg",
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 },
 {
 	"name": "Aba Nigeria Temple",
@@ -28,7 +31,9 @@
 	"address": "72-80 Okpu-Umuobo Rd,Aba, Abia State, Nigeria",
 	"tel":"(234)80-3903-4804",
 	"services":["No clothing Rental","No cafeteria","Patron housing available","Distribution cener nearby"],
-	"imageurl":"https://media.ldscdn.org/images/media-library/temples/aba-nigeria/aba-nigeria-temple-lds-273999-gallery.jpg"
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/aba-nigeria/aba-nigeria-temple-lds-273999-gallery.jpg",
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 },
 {
 	"name": "Rexburg Idaho Temple",
@@ -38,6 +43,8 @@
 	"address": "750 S 2nd E, Rexburg ID 83440-5404,United States",
 	"tel":"(1) 208-656-0880",
 	"services":["Clothing Rental available","No cafeteria","No patron housing available","Distribution center nearby"],
-	"imageurl":"https://media.ldscdn.org/images/media-library/temples/rexburg-idaho/rexburg-temple-lds-453574-gallery.jpg"
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/rexburg-idaho/rexburg-temple-lds-453574-gallery.jpg",
+	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 }
 ]}
