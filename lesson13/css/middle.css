@@ -63,22 +63,14 @@
     .temple_area img{
         float:right;     
     }
-   
+   /*css for templese page*/
 
-
-
-
-
-
-
-
-
-    .townData{
+    .temple_closure{
         display: flex;
         flex-direction:column;
         
     }
-    .townData section{
+    .temple_closure section{
         display:flex;
         flex-direction: row;
         justify-content:space-evenly;
@@ -86,21 +78,14 @@
         padding: 20px;
 
     }
-    .townData img{
+    .temple_closure img{
         width:100%;
         max-width:350px;
     }
-    .townData h4{
+    .temple_closure h4{
         width:350px;
     }
-    .townData section:nth-child(2){
-        flex-direction:row-reverse;
-
-    }
-    .townData section:nth-child(1){
-        flex-direction:row-reverse;
-
-    }
+    
     /* css for gallery tab*/
     .img-gallery{
         grid-template-columns: 1fr 1fr; 

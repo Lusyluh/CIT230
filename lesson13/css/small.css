@@ -121,6 +121,7 @@ main p{
 main h3{
     color:#0a1c2f;
     padding:.5rem;
+    padding-left:0rem;
 }
 /*container holding an image and text on home page*/
 .container{
@@ -209,9 +210,38 @@ main h3{
 }
 
 /*css for the temple page*/
-.temples{
-    height:auto;
-    border:1px solid red;
+
+.temple_closure section {
+    width:90%;
+    border: 1px solid #000;
+    margin: 10px auto;
+    color: #000000;
+    text-align:center;
+}
+.temple_closure img{
+    width:100%;
+    max-width:350px;
+    margin: .5rem auto;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 10px;
+}
+
+.temple_closure{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+}
+.temple_closure p {
+    padding:.2rem;
+}
+.temple_closure h4{
+    padding: .1rem;
+    font-style: italic;
+}
+.temple_closure section:nth-child(even){
+    flex-direction:row-reverse;
+
 }
 
 /*css for the reservation page form*/
@@ -469,34 +499,7 @@ form label.top input:required:invalid {
 /*---css for home page---*/
 
 
-.townData section {
-    width:90%;
-    border: 1px solid #000;
-    margin: 10px auto;
-    color: #000000;
-    text-align:center;
-}
-.townData img{
-    width:100%;
-    max-width:350px;
-    margin: .5rem auto;
-    box-shadow: 3px 3px 3px grey;
-    border-radius: 10px;
-}
 
-.townData{
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    
-}
-.townData p {
-    padding:.2rem;
-}
-.townData h4{
-    padding: .1rem;
-    font-style: italic;
-}
 .weatherStory{
     text-align:center;
     padding:2rem;
