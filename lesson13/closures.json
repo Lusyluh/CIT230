@@ -2,13 +2,17 @@
 "closure":[{
 	"name": "Adelaide Australia Temple",
 	"announced": "17 March 1999",
+	"groundbreaking": "29 May 1999",
 	"thisYear": "Wednesday,25 December 2019 - Thursday,26 December 2019",
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/adelaide-australia/adelaide-australia-temple-lds-1670450-gallery.jpg",
 	"nextYear": ["Wednesday,1 January 2020","Fiday,10 April 2020(Limited Hours)","Saturday,25 April 2020"]
 	},
 	{
 	 "name": "Accra Ghana Temple",
 	"announced": "16 February 1998",
-	 "nextYear": ["Wednesday,1 January 2020","Monday,17 February 2020-Monday,2 March 2020","Fiday,7 March 2020","Tuesday,4 August 2020","Saturday,15 August 2020","Monday,7 September 2020-Monday,9 November 2020","Friday,25 December 2020 - Saturday,26 December 2020"]
+	"groundbreaking": "16 November 2001",
+	"imageurl":"https://media.ldscdn.org/images/media-library/temples/accra-ghana/accra-ghana-temple-lds-249027-gallery.jpg",	
+	"nextYear": ["Wednesday,1 January 2020","Monday,17 February 2020-Monday,2 March 2020","Fiday,7 March 2020","Tuesday,4 August 2020","Saturday,15 August 2020","Monday,7 September 2020-Monday,9 November 2020","Friday,25 December 2020 - Saturday,26 December 2020"]
 	},
 	{
 	"name": "Aba Nigeria Temple",
