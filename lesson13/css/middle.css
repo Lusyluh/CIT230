@@ -32,7 +32,10 @@
     li.dropdown{
         display:inline-block;
     }
-    
+    /*CSS for the temples page*/
+    .heroImg{
+        height:450px;
+    }
     /* CSS styling for the full time temple missionary page*/
    
     .suites img{

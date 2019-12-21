@@ -18,7 +18,7 @@
             <picture><img src ="images/logo_hotel3.png" alt = "Temple Inn Logo" > </picture>
             <section class="headings">
                 <div>
-                    <h1>Temple Inn and Suites</h1>
+                    <h1>Temple Inn & Suites</h1>
                     <p class="motto">Feel at home</p>
                 </div>
             </section>
@@ -26,11 +26,11 @@
                 <ul class="navigationbar">
                     <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
                     <li><a href ="home.html">Home</a></li>
-                    <li><a href ="temples.html" >Temples</a></li>
+                    <li><a href ="temples.html" class="active" >Temples</a></li>
                     <li class="dropdown"><a href="services.html" class="dropbtn">Services</a>
                         <div class="dropdown_content">
                             <a href="reception.html">Reception</a>
-                            <a href="templeMissionary.html" class="active">Temple Missionary</a>
+                            <a href="templeMissionary.html" >Temple Missionary</a>
                         </div>
                     </li>
                     <li><a href="bookings.html">Reservations</a></li>
@@ -40,26 +40,59 @@
             </nav>         
         </header>
         <main><!--temples page content here-->
-            <div class="temples"></div>
-                    
+            <div>
+                <img src="images/floridaTemple.jpg" alt="FloridaTemple" class="heroImg">
+            </div>
+            <div class="temples"><!--temple content goes here-->
+                <section>
+                    <h2>Adelaide Australia Temple</h2>
+                    <img src="https://media.ldscdn.org/images/media-library/temples/adelaide-australia/adelaide-australia-temple-lds-1670450-gallery.jpg" alt="Adelaide Australia Temple">
+                    <p>announced: 17 March 1999</p>
+                    <p>groundbreaking": "29 May 1999"</p>
+                    <p>dedicated": "15 June 2000",</p>
+                    <p>"tel":"(61)8-8363-8000",</p>
+                    <p>address": "53-59 Lower Portrush Rd, Marden SA 5070, Australia",</p>
+                    <p>Services:
+                      <ul>
+                          <li>No clothing Rental</li>
+                          <li>No cafeteria</li>
+                          <li>No patron housing</li>
+                          <li>No distribution center nearby</li>
+                      </ul>
+
+                    </p>
+                </section>
+            </div>
+
+            <section class="contactInfo"><!--end of temple content section-->
+                <div>
+                    <img src="images/logo_hotel3.png" alt="logo" class="footlogo">
+                </div>
+                <div>
+                    <h3>CONTACT INFO</h3>
+                    <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                    <p>Phone:+1 3357 5674</p>
+                    <p>Email: info@templesuites.org</p>
+                </div>
+                <!---social media content-->
+                <div class="mediaIcons">
+                    <a target="_blank" href="https://www.facebook.com">
+                        <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
+                    <a target="_blank" href="https://www.instagram.com">                                                                                                                                     
+                        <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
+                    <a target="_blank" href="https://www.twitter.com">
+                        <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
+                </div>
+            </section>          
         </main>
         <footer>
             <p>&copy;<span id="currentYear"></span>Temple Inn and Suites|Lusanda Mavuma|<a href="https://www.templesuites.org"></a></p>
              
             <p><span id="day"></span></p> 
-            <!---social media content-->
-            <div>
-                <a target="_blank" href="https://www.facebook.com">
-                    <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
-                <a target="_blank" href="https://www.instagram.com">
-                    <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
-                <a target="_blank" href="https://www.twitter.com">
-                    <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
-            </div>
                            
         </footer>
-        <script src="js/temples.js"></script>
-        <!--<script src="js/date.js"></script>
+        <!--<script src="js/templeClosure.js"></script>
+        <script src="js/date.js"></script>
         <script src="js/updates.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/fontfamily.js"></script>-->   
