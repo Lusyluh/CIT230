@@ -11,6 +11,7 @@
         <link rel="stylesheet" href = "css/middle.css">
         <!--<link rel="stylesheet" href = "css/large.css">-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="js/toggle.js"></script>
         
     </head>
     <body>
@@ -21,53 +22,73 @@
                     <h1>Temple Inn and Suites</h1>
                     <p class="motto">Feel at home</p>
                 </div>
-            </section>        
+            </section>
+            <nav><!--navigation here-->
+                <ul class="navigationbar">
+                    <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                    <li><a href ="home.html">Home</a></li>
+                    <li><a href ="temples.html" >Temples</a></li>
+                    <li class="dropdown"><a href="services.html" class="dropbtn">Services</a>
+                        <div class="dropdown_content">
+                            <a href="reception.html">Reception</a>
+                            <a href="templeMissionary.html" class="active">Temple Missionary</a>
+                        </div>
+                    </li>
+                    <li><a href="bookings.html">Reservations</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>         
         </header>
-        <nav><!--navigation here-->
-            <ul class="navigationbar">
-                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href ="home.html">Home</a></li>
-                <li><a href ="temples.html" >Temples</a></li>
-                <li class="dropdown"><a href="services.html" class="dropbtn">Services</a>
-                    <div class="dropdown_content">
-                        <a href="reception.html">Reception</a>
-                        <a href="templeMissionary.html" class="active">Temple Missionary</a>
-                    </div>
-                </li>
-                <li><a href="bookings.html">Reservations</a></li>
-                <li><a href="#" >Contact</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-        </nav> 
         <main><!--full time missionary suites-->
             <div class="suites">
-                <h3>Standard Deluxe Suite</h3>
+            <section>
+                
                 <img src="images/placeholder.jpg" data-src="images/bedroom-decoration-hotels-interior.jpg" alt="Standard Deluxe Suite">
-                <p>Occupancy: 2</p>
-                <p>1 bedroom, 1 separate bathroom</p>
-                <p>Open plan lounge and kitchen</p>
-                <p><em>230 square meters</em></p>
-            </div>
-            <div class="suites">
-                <h3>King Deluxe Suite</h3>
+                <div>
+                    <h3>Standard Deluxe Suite</h3>
+                    <p>Occupancy: 2</p>
+                    <p>1 bedroom, 1 separate bathroom</p>
+                    <p>Open plan lounge and kitchen</p>
+                    <p><em>230 square meters</em></p>
+                </div>
+            </section>
+            <section>
                 <img src="images/placeholder.jpg" data-src="images/apartment-bed-bedroom.jpg" alt="King Deluxe Suite">
-                <p>Occupancy: 2</p>
-                <p>Ensuite bedroom </p>
-                <p>1 King Sized Bed</p>
-                <p>Open plan kitchen</p>
-                <p>Balcony</p>
-                <p><em>300 square meters</em></p>
-            </div>
-            <div class="suites">
-                <h3>Executive Suite</h3>
+                <div>
+                    <h3>King Deluxe Suite</h3>
+                    <p>Occupancy: 2</p>
+                    <p>Ensuite bedroom </p>
+                    <p>1 King Sized Bed</p>
+                    <p>Open plan kitchen</p>
+                    <p>Balcony</p>
+                    <p><em>300 square meters</em></p>
+                </div>
+            </section>
+            <section>
                 <img src="images/placeholder.jpg" data-src="images/architecture-carpet-chandeliers.jpg" alt="Executive Deluxe Suite">
-                <p>Occupancy: 4</p>
-                <p>2 bredrooms</p>
-                <p>2 bathrooms</p>
-                <p>Open plan lounge/kitchen</p>
-                <p>Spacious Balcony</p>
-                <p><em>500 square meters</em></p>
+                <div>
+                    <h3>Executive Suite</h3>
+                    <p>Occupancy: 4</p>
+                    <p>2 bredrooms</p>
+                    <p>2 bathrooms</p>
+                    <p>Open plan lounge/kitchen</p>
+                    <p>Spacious Balcony</p>
+                    <p><em>500 square meters</em></p>
+                </div>
+            </section>
             </div>
+            <section class="missionForm">
+                <h4>Contact us for more information about our suites</h4>
+                <p><em>required fields*</em></p>
+                <form>
+                    <label class="top">First Name*<input type="text" name="fname" required pattern="[A-Za-z ]{5,99}"></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required pattern="[A-Za-z ]{5,99}"></label>
+                    <label class="top">e-mail*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label class="message">Message:<textarea name="message" placeholder="Write here"></textarea></label>
+                    <input type="submit" value="Submit" class="submitBtn">  
+                </form>
+            </section>
         </main>
         <footer>
             <p>&copy;<span id="currentYear"></span>Temple Inn and Suites|Lusanda Mavuma|<a href="https://www.templesuites.org"></a></p>
@@ -87,6 +108,7 @@
         <script src="js/date.js"></script>
         <script src="js/updates.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="js/fontfamily.js"></script>   
+        <script src="js/fontfamily.js"></script>
+        <script src="js/load.js" defer></script>    
     </body>
 </html>
