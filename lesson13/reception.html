@@ -5,11 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Temple Inn Project:CIT230 BYUI">
-        <!--<link rel="shortcut icon" href = "images/myfavicon.ico" type="image/x-icon">-->
+        <link rel="shortcut icon" href = "images/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href = "css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href = "css/middle.css">
-        <!--<link rel="stylesheet" href = "css/large.css">-->
+        <link rel="stylesheet" href = "css/large.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <script src="js/toggle.js"></script>
         
@@ -37,14 +37,15 @@
                     </li>
                     <li><a href="bookings.html">Reservations</a></li>
                     <li><a href="contact.html" >Contact</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    
                 </ul>
             </nav>         
         </header>
         <main><!--Wedding Reception page-->
             <div class="reception">
+                <img class="mySlides" src="images/reception_venue.jpg" alt="Photo of decorated reception area" class="heroImg">
+                <img class="mySlides" src="images/dining-hall-interior.jpg" alt="Dining Hall Decor" class="heroImg">
                 <h2>Wedding Reception at The Temple Inn</h2>
-                <img src="images/reception_venue.jpg" alt="Photo of decorated reception area">
             </div>
             <div class="recep_text">
                 <p>Are you getting sealed to the love of your life soon? Start planning your dream wedding reception at The Temple Inn!
@@ -67,26 +68,37 @@
                 <p>Minimum of 20 guests to qualify for package</p>
                 <p>Prices are subject to change without notice</p>
             </div>
-            
+            <section class="contactInfo">
+                    <div>
+                      <img src="images/logo_hotel3.png" alt="logo" class="footlogo">
+                  </div>
+                  <div>
+                      <h3>CONTACT INFO</h3>
+                      <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                      <p>Phone:+1 3357 5674</p>
+                      <p>Email: info@templesuites.org</p>
+                  </div>
+                  <!---social media content-->
+                  <div class="mediaIcons">
+                      <a target="_blank" href="https://www.facebook.com">
+                          <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
+                      <a target="_blank" href="https://www.instagram.com">                                                                                                                                     
+                          <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
+                      <a target="_blank" href="https://www.twitter.com">
+                          <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
+                  </div>
+                </section>
         </main>
         <footer>
             <p>&copy;<span id="currentYear"></span>Temple Inn and Suites|Lusanda Mavuma|<a href="https://www.templesuites.org"></a></p>
              
             <p><span id="day"></span></p> 
-            <!---social media content-->
-            <div>
-                <a target="_blank" href="https://www.facebook.com">
-                    <img src="images/facebook_icon.png" alt="Facebook icon" ></a>
-                <a target="_blank" href="https://www.instagram.com">                                                                                                                                     
-                    <img src="images/instagram_icon.png" alt="Instagram icon" ></a>
-                <a target="_blank" href="https://www.twitter.com">
-                    <img src="images/twitter_icon.png" alt="Twitter icon"></a> 
-            </div>
+            
                            
         </footer>
         <script src="js/date.js"></script>
-        <script src="js/updates.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="js/fontfamily.js"></script>   
+        <script src="js/fontfamily.js"></script> 
+        <script src="js/slideshow.js"></script>     
     </body>
 </html>

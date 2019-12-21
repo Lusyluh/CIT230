@@ -1,0 +1,33 @@
+@media only screen and (min-width:60em){
+    
+    .weatherSum{
+        font-size:1.2em;
+        width:350px;
+        height:50%;
+        padding:20px;
+        line-height:30px;
+    
+    }
+    .forecast-area{
+        display:inline;
+        margin:auto;
+        justify-items: center;
+    }
+    form label.top input, form label.top select{
+        max-width:30rem;
+    }
+    #thanksmsg{
+        font-size:24px;
+    }
+    /*css for temples page*/
+   
+    
+    
+    /*---gallery---*/
+    .img-gallery{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    .img-gallery figure:hover{
+        box-shadow: 0 0 50px #333;
+    }
+}

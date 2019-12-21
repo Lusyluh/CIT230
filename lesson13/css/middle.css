@@ -27,10 +27,12 @@
     }
     .navigationbar li {
         display:block;
-        flex:1 1 100%;    
+        flex:1 1 100%;
+        min-width:150px;    
     }
     li.dropdown{
         display:inline-block;
+        
     }
     /*CSS for the temples page*/
     .heroImg{
@@ -80,10 +82,14 @@
     }
     .temple_closure img{
         width:100%;
-        max-width:350px;
+        max-width:450px;
     }
     .temple_closure h4{
         width:350px;
+    }
+    .temple_closure section:nth-child(even){
+        flex-direction:row-reverse;
+    
     }
     
     /* css for gallery tab*/

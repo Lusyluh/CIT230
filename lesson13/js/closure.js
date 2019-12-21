@@ -23,6 +23,7 @@ fetch(requestURL)
                 let address = document.createElement('p');
                 let tel = document.createElement('p');
                 let info = document.createElement('span');
+                let heading = document.createElement('h3')
             
 
                 h2.textContent = temples[i].name;
@@ -32,6 +33,7 @@ fetch(requestURL)
                 dedicated.textContent = 'Dedicated: ' + temples[i].dedicated;
                 address.textContent = 'Address: ' + temples[i].address;
                 tel.textContent = 'Phone: ' + temples[i].tel;
+                heading.textContent = 'TEMPLE CLOSURE SCHEDULE'
                 h3.textContent = '2019';
                 thisYear.textContent =  temples[i].thisYear;
                 nextYear.textContent = '2020'
@@ -43,6 +45,7 @@ fetch(requestURL)
                 info.appendChild(dedicated);
                 info.appendChild(address);
                 info.appendChild(tel);
+                info.appendChild(heading);
                 info.appendChild(h3);
                 info.appendChild(thisYear);
                 info.appendChild(nextYear);
