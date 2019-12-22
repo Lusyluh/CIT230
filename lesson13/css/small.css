@@ -152,7 +152,7 @@ main h3{
     overflow: hidden;
     
 }
-.heroText button{
+.heroText div{
     display:inline-block;
     background-color:#1b498a;
     text-align:center;
@@ -161,11 +161,11 @@ main h3{
     border-radius: 0.4rem;
     margin-top:10px;
 }
-.heroText button a{
+.heroText div a{
     color:#ffffff;
     text-decoration: none;
 }
-.heroText button:hover{
+.heroText div:hover{
     background-color:#dea325;
 
 }
