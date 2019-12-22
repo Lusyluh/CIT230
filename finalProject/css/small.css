@@ -382,61 +382,8 @@ img {
 .physicalAdress{
     display:block-inline;
 }
-
-
-
-
-
-/*css for the article and the image
-.article-area{
-    border:1px solid #bbb;
-    margin:10px auto;   
-    background-color:#D3D3D3;
-    margin-top:10px;
-    
-}
-.article-holder{
-    
-    padding:20px;
-
-}
-.article-holder p ol li{
-    padding : 5px;
-    
-    
-}
-.articleimg{
-    display:block;
-    margin:auto;
-    max-width:90%;
-    height: auto;
-    box-shadow:5px 5px 5px #000;
-    margin-top:10px;
-
-}
-.readFullArticle {
-    color:#22187F;
-    font-style:italic;
-}
-/*css for the contact information*/
-/*.contactarea{
-    width:100%;
-    height:auto;
-    margin:10px auto;
-    padding:15px;  
-}
-.contact-info{
-    text-align:center;
-    padding-top:25px;
-}
-.details{
-    text-align:center;
-}
-.presmap{
-    display:none;
-}
 .courtesy{
-    color:#22187f;
+    color:#ffffff;
     text-decoration:none;
 }
 .social-icons{
@@ -449,32 +396,6 @@ img {
     line-height:25px;
     font-size:20px;
 }
-/*----------------------------------------FORM CSS---------------------------------------------------*/
-/*#storm_heading{
-    color:#22187F;
-    text-align: center;
-    text-shadow: 3px 1.5px #999;
-}
-
-
-
-
-form label.severity{
-    display:flex;
-    color:#ba1309;
-    font-size:smaller;
-    align-items: center;
-}
-#ratingvalue{
-    margin:0 1rem;
-}
-form label.rbtn{
-    display:block;
-    padding: 0.75rem;
-    font-size:0.75rem;
-}
-
-
 #thanksmsg{
     font-size:16px;
     color: #000;
@@ -483,16 +404,6 @@ form label.rbtn{
     max-width:1200px;
     margin:10rem auto;
 }
-
-/*form label.top input:required:valid {
-    border-left:4px solid green;
-}
-form label.top input:required:invalid {
-    background-color:red;
-}*/
-
-/*---css for home page---*/
-
 img[data-src] {
     filter: blur(0.2em);
   }
