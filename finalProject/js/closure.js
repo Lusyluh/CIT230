@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/Lusyluh/Lusyluh.github.io/master/lesson13/closures.json';
+const requestURL = 'https://raw.githubusercontent.com/Lusyluh/Lusyluh.github.io/master/finalProject/closures.json';
 
 fetch(requestURL)
     .then(function (response){
